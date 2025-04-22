@@ -109,12 +109,17 @@ Zeros = []
 Frns = []
 
 for i in range(len(Treasuries)):
-    Maturity = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - today
-    Term = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - pd.to_datetime(Treasuries['Offering Date'].iloc[i])
-    Term_time = round(Term.days/365,1)
-    Maturity_time = round(Maturity.days/365,2)
+    print(f'{i}: {Treasuries['Security Name'].iloc[i]}, {Treasuries['Price [Latest]'].iloc[i]}')
+    try:
+        Maturity = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - today
+        Term = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - pd.to_datetime(Treasuries['Offering Date'].iloc[i])
+        Term_time = round(Term.days/365,1)
+        Maturity_time = round(Maturity.days/365,2)
+    except Exception as e:
+        print(1, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )  
     
     #Zeros
+    print(Treasuries['Coupon Type'].iloc[i])
     if Treasuries['Coupon Type'].iloc[i] == 'Zero':
         try:
             govy = {
@@ -126,8 +131,10 @@ for i in range(len(Treasuries)):
                 'Face':100,
                 'Compound': 1}
             Zeros.append(govy)
-        except ValueError:
-            govy['Price'] = np.nan
+
+        except Exception as e:
+            print(2,i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )
+            govy['Price'] = pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce')
             govy['Face'] = 100
             govy['Compound'] = 1
             Zeros.append(govy)
@@ -143,12 +150,13 @@ for i in range(len(Treasuries)):
                 'Face':100,
                 'Compound':4}
             Frns.append(govy)
-        except ValueError:
-            govy['Price'] = np.nan
+        except Exception as e:
+            print(3, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )
+            govy['Price'] = pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce')
             govy['Face'] = 100
             govy['Compound'] = 4
             Frns.append(govy)
-            
+    
     # T-bills, Notes, Bonds 
     else:
         try:
@@ -161,12 +169,14 @@ for i in range(len(Treasuries)):
                 'Face':100,
                 'Compound':2}
             T_s.append(govy)
-        except ValueError:
-            govy['Price'] = np.nan
+        except Exception as e:
+            print(4, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )
+            govy['Price'] = pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce')
             govy['Face'] = 100
             govy['Compound'] = 2
             T_s.append(govy)
-
+    print(f'{i}: {Treasuries['Security Name'].iloc[i]}, {Treasuries['Price [Latest]'].iloc[i]}')
+    
 for i in Zeros:
     try:
         i['Yield'] = zero_bond_yield(par=i['Face'], z_bond_value=i['Price'], years=i['Maturity']) 
@@ -190,20 +200,22 @@ Curve.set_index(Curve['Term'],inplace=True)
 forward = 0.5
 Curve[f'{forward} Year Forward Curve'] = 0
 
-
 for i in range(len(Curve)):
     try: # Forward rate at T-t
-        Curve.loc[i, f'{forward} Year Forward Curve'] = ( # Spot rate at T
+        if Curve.iloc[i]['Term'] <= forward:
+            Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
+        else:
+            Curve.loc[i, f'{forward} Year Forward Curve'] = ( # Spot rate at T
                                                     ((1+Curve.iloc[i]['Yield'])**(Curve.iloc[i]['Term']))/
                                                     # Divided by Spot rate at time t
                                                     ((1+Curve.loc[forward,'Yield'])**(Curve.loc[forward,'Term']))
                                                     # to the inverse power of T-t
                                                       )**(1/(Curve.iloc[i]['Term']-forward))-1
-        if Curve.iloc[i]['Term'] <= forward:
-            Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
+        
     except Exception as e:
         Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
     print(Curve.loc[i, f'{forward} Year Forward Curve'], i)
+    print('______')
 
 
 # fig = px.line(Curve, x= 'Term',y=f'{forward} Year Forward Curve')
