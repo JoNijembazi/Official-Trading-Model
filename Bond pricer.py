@@ -6,7 +6,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import date
 import calendar
-
+import plotly.express as px
+import plotly.graph_objects as go
 
 
 def zero_bond_price(par, discount_rate, years):
@@ -182,14 +183,30 @@ for i in Treasuries_otr:
     zeros = strip_constructor(i)
     Treasuries_to_zeros.append(zeros)
 
-Curve = pd.DataFrame(Money_market_otr + Treasuries_otr).sort_values(by='Term')
+Curve = pd.DataFrame(Money_market_otr + Treasuries_otr).sort_values(by='Term').reset_index(drop=True)
 Curve.drop_duplicates(subset=['Term'], keep='last', inplace=True)
-    
-fig = plt.figure(figsize=(10, 6));
-ax = fig.add_subplot(111)
-ax.plot(Curve['Term'], Curve['Yield']*100, marker=None, linestyle='-', color='blue')
-ax.set_title('Yield Curve')
-ax.set_xlabel('Term (Years)')
-ax.set_ylabel('Yield (%)')
+Curve.set_index(Curve['Term'],inplace=True)
 
-fig.show()
+forward = 0.5
+Curve[f'{forward} Year Forward Curve'] = 0
+
+
+for i in range(len(Curve)):
+    try: # Forward rate at T-t
+        Curve.loc[i, f'{forward} Year Forward Curve'] = ( # Spot rate at T
+                                                    ((1+Curve.iloc[i]['Yield'])**(Curve.iloc[i]['Term']))/
+                                                    # Divided by Spot rate at time t
+                                                    ((1+Curve.loc[forward,'Yield'])**(Curve.loc[forward,'Term']))
+                                                    # to the inverse power of T-t
+                                                      )**(1/(Curve.iloc[i]['Term']-forward))-1
+        if Curve.iloc[i]['Term'] <= forward:
+            Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
+    except Exception as e:
+        Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
+    print(Curve.loc[i, f'{forward} Year Forward Curve'], i)
+
+
+# fig = px.line(Curve, x= 'Term',y=f'{forward} Year Forward Curve')
+# fig.add_trace(go.Line(x=Curve['Term'],y=Curve['Yield']))
+
+# fig.show()
