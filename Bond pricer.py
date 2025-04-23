@@ -101,15 +101,15 @@ bonds = pd.read_excel('Govies.xls')
 bonds.columns = bonds.iloc[6]
 bonds = bonds[7:]
 
-Treasuries = bonds[bonds['Issuer'] == 'United States Department of The Treasury']
+
 today = pd.to_datetime(date.today())
+Treasuries = bonds[(bonds['Issuer'] == 'United States Department of The Treasury') & (bonds['Price [Latest]'] != '-') & (bonds['Offering Yield (%)'] != '-')]
 
 T_s = []
 Zeros = []
 Frns = []
 
 for i in range(len(Treasuries)):
-    print(f'{i}: {Treasuries['Security Name'].iloc[i]}, {Treasuries['Price [Latest]'].iloc[i]}')
     try:
         Maturity = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - today
         Term = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - pd.to_datetime(Treasuries['Offering Date'].iloc[i])
@@ -119,63 +119,42 @@ for i in range(len(Treasuries)):
         print(1, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )  
     
     #Zeros
-    print(Treasuries['Coupon Type'].iloc[i])
+   
     if Treasuries['Coupon Type'].iloc[i] == 'Zero':
-        try:
-            govy = {
-                'Name':Treasuries['Security Name'].iloc[i],
-                'Term':Term_time,
-                'Maturity':Maturity_time,
-                'Coupon':0,
-                'Price':float(Treasuries['Price [Latest]'].iloc[i]),
-                'Face':100,
-                'Compound': 1}
-            Zeros.append(govy)
+        govy = {
+            'Name':Treasuries['Security Name'].iloc[i],
+            'Term':Term_time,
+            'Maturity':Maturity_time,
+            'Coupon':0,
+            'Price':pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce'),
+            'Face':100,
+            'Compound': 1}
 
-        except Exception as e:
-            print(2,i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )
-            govy['Price'] = pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce')
-            govy['Face'] = 100
-            govy['Compound'] = 1
-            Zeros.append(govy)
+        Zeros.append(govy)
     #FRNs
     elif Treasuries['Coupon Type'].iloc[i] == 'Variable':
-        try:
-            govy = {
+        govy = {
                 'Name':Treasuries['Security Name'].iloc[i],
                 'Term':round(Term_time,0),
                 'Maturity':Maturity_time,
                 'Coupon':'SOFR/Fed Funds',
-                'Price':float(Treasuries['Price [Latest]'].iloc[i]),
+                'Price':pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce'),
                 'Face':100,
                 'Compound':4}
-            Frns.append(govy)
-        except Exception as e:
-            print(3, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )
-            govy['Price'] = pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce')
-            govy['Face'] = 100
-            govy['Compound'] = 4
-            Frns.append(govy)
+        Frns.append(govy)
+       
     
     # T-bills, Notes, Bonds 
     else:
-        try:
-            govy = {
+        govy = {
                 'Name':Treasuries['Security Name'].iloc[i],
                 'Term':round(Term_time,0),
                 'Maturity':Maturity_time,
-                'Coupon':float(Treasuries['Coupon Rate (%)'].iloc[i])/100,
-                'Price':float(Treasuries['Price [Latest]'].iloc[i]),
+                'Coupon':pd.to_numeric(Treasuries['Coupon Rate (%)'].iloc[i])/100,
+                'Price':pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce'),
                 'Face':100,
                 'Compound':2}
-            T_s.append(govy)
-        except Exception as e:
-            print(4, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )
-            govy['Price'] = pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce')
-            govy['Face'] = 100
-            govy['Compound'] = 2
-            T_s.append(govy)
-    print(f'{i}: {Treasuries['Security Name'].iloc[i]}, {Treasuries['Price [Latest]'].iloc[i]}')
+        T_s.append(govy)
     
 for i in Zeros:
     try:
@@ -198,27 +177,31 @@ Curve.drop_duplicates(subset=['Term'], keep='last', inplace=True)
 Curve.set_index(Curve['Term'],inplace=True)
 
 forward = 0.5
-Curve[f'{forward} Year Forward Curve'] = 0
-
+Curve[f'{forward} Year Forward Curve'] = np.nan
 for i in range(len(Curve)):
     try: # Forward rate at T-t
+
         if Curve.iloc[i]['Term'] <= forward:
-            Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
+            Curve[f'{forward} Year Forward Curve'].iat[i] = Curve['Yield'].iat[i]
         else:
-            Curve.loc[i, f'{forward} Year Forward Curve'] = ( # Spot rate at T
+
+            Curve[f'{forward} Year Forward Curve'].iat[i] = ( # Spot rate at T
                                                     ((1+Curve.iloc[i]['Yield'])**(Curve.iloc[i]['Term']))/
                                                     # Divided by Spot rate at time t
                                                     ((1+Curve.loc[forward,'Yield'])**(Curve.loc[forward,'Term']))
                                                     # to the inverse power of T-t
                                                       )**(1/(Curve.iloc[i]['Term']-forward))-1
-        
+
     except Exception as e:
-        Curve.loc[i, f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
-    print(Curve.loc[i, f'{forward} Year Forward Curve'], i)
-    print('______')
+        Curve.iloc[i][f'{forward} Year Forward Curve'] = Curve.iloc[i]['Yield']
+        print(e)
 
-
-# fig = px.line(Curve, x= 'Term',y=f'{forward} Year Forward Curve')
-# fig.add_trace(go.Line(x=Curve['Term'],y=Curve['Yield']))
-
-# fig.show()
+fig = go.Figure(go.Scatter(x=Curve['Term'], 
+                          y=Curve[f'{forward} Year Forward Curve'],
+                          mode='lines+markers')
+)
+fig.update_yaxes(tickformat=".2%", title="Yield (%)")  # Format y-axis as percentages with 2 decimals
+fig.update_xaxes(tickformat='Year', tickmode='array', tickvals=Curve['Term'].unique())
+fig.add_trace(go.Scatter(x=Curve['Term'], y=Curve['Yield'], mode='lines+markers', name='Yield Curve'))
+fig.update_layout()
+fig.show()
