@@ -10,8 +10,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-def zero_bond_price(par, discount_rate, years):
-    z_bond_value = par/(1+discount_rate/years)**(years)
+def zero_bond_price(par, discount_rate,period, years):
+    z_bond_value = par/(1+discount_rate/period)**(period*years)
     return z_bond_value
 def zero_bond_yield(par, z_bond_value, years):
     discount_rate = (par/z_bond_value)**(1/years) - 1
@@ -30,18 +30,26 @@ def strip_constructor(bond):
         if Maturity_jumps < bond['Tenor']:
             strip['Maturity'] = Maturity_jumps
             strip['Coupon'] = 0
-            strip['Price'] = (bond['Coupon']/bond['Compound'] * bond['Face']) - rd.randrange(0,10,1)/100
+            strip['Price'] = zero_bond_price((bond['Coupon']/bond['Compound'] * bond['Face']),
+                                             bond['Yield'],
+                                             bond['Compound'],
+                                             strip['Maturity'])
             strip['Face'] = bond['Coupon']/bond['Compound'] * bond['Face']
-            strip['Compound'] = 1
+            strip['Compound'] = 2
+            strip['Yield'] = zero_bond_yield(strip['Face'],strip['Price'],strip['Maturity'])
 
             strips.append(strip)
         
         elif Maturity_jumps == bond['Tenor']:
             strip['Maturity'] = Maturity_jumps
             strip['Coupon'] = 0
-            strip['Price'] = (bond['Coupon']/bond['Compound'] * bond['Face']) - rd.randrange(0,10,1)/100
+            strip['Price'] = zero_bond_price((bond['Coupon']/bond['Compound'] * bond['Face']),
+                                             bond['Yield'],
+                                             bond['Compound'],
+                                             strip['Maturity'])
             strip['Face'] = bond['Coupon']/bond['Compound'] * bond['Face']
-            strip['Compound'] = 1
+            strip['Compound'] = 2
+            strip['Yield'] = zero_bond_yield(strip['Face'],strip['Price'],strip['Maturity'])
 
             strips.append(strip)
             
@@ -49,9 +57,13 @@ def strip_constructor(bond):
             strip = {}
             strip['Maturity'] = Maturity_jumps
             strip['Coupon'] = 0
-            strip['Price'] = bond['Face'] - rd.randrange(1,3,1)
+            strip['Price'] = zero_bond_price((bond['Face']),
+                                             bond['Yield'],
+                                             bond['Compound'],
+                                             strip['Maturity']) 
             strip['Face'] = bond['Face']
-            strip['Compound'] = 1
+            strip['Compound'] = 2
+            strip['Yield'] = zero_bond_yield(strip['Face'],strip['Price'],strip['Maturity'])
 
             strips.append(strip)
         Maturity_jumps += 1/bond['Compound']
@@ -96,14 +108,13 @@ def on_the_run(bonds):
         on_the_run.append(sorted_bonds[0])
     return on_the_run
 
-
-bonds = pd.read_excel('Govies.xls')
+# Clean up DataFrame columns and rows
+bonds = pd.read_excel('KSA Sukuk.xls')
 bonds.columns = bonds.iloc[6]
-bonds = bonds[7:]
-
+bonds = bonds.iloc[7:].reset_index(drop=True)  # Use iloc for clarity
 
 today = pd.to_datetime(date.today())
-Treasuries = bonds[(bonds['Issuer'] == 'United States Department of The Treasury') & (bonds['Price [Latest]'] != '-') & (bonds['Offering Yield (%)'] != '-')]
+Treasuries = bonds[(bonds['Issuer'] == 'Saudi Arabia') & (bonds['Price [Latest]'] != '-') & (bonds['Offering Yield (%)'] != '-')].copy().reset_index(drop=True)
 
 T_s = []
 Zeros = []
@@ -111,59 +122,67 @@ Frns = []
 
 for i in range(len(Treasuries)):
     try:
-        Maturity = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - today
-        Tenor = pd.to_datetime(Treasuries['Maturity Date'].iloc[i]) - pd.to_datetime(Treasuries['Offering Date'].iloc[i])
-        Tenor_time = round(Tenor.days/365,1)
-        Maturity_time = round(Maturity.days/365,2)
+        Maturity = pd.to_datetime(Treasuries.loc[i, 'Maturity Date']) - today
+        Tenor = pd.to_datetime(Treasuries.loc[i, 'Maturity Date']) - pd.to_datetime(Treasuries.loc[i, 'Offering Date'])
+        Tenor_time = round(Tenor.days/365, 1)
+        Maturity_time = round(Maturity.days/365, 2)
     except Exception as e:
-        print(1, i, e, f'Name:{Treasuries['Security Name'].iloc[i]}' )  
-    
-    #Zeros
-   
-    if Treasuries['Coupon Type'].iloc[i] == 'Zero':
-        govy = {
-            'Name':Treasuries['Security Name'].iloc[i],
-            'Tenor':Tenor_time,
-            'Maturity':Maturity_time,
-            'Coupon':0,
-            'Price':pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce'),
-            'Face':100,
-            'Compound': 1}
+        print(1, i, e, f"Name:{Treasuries.loc[i, 'Security Name']}")
 
-        Zeros.append(govy)
-    #FRNs
-    elif Treasuries['Coupon Type'].iloc[i] == 'Variable':
+    # Zeros
+    if Treasuries.loc[i, 'Coupon Type'] == 'Zero':
         govy = {
-                'Name':Treasuries['Security Name'].iloc[i],
-                'Tenor':round(Tenor_time,0),
-                'Maturity':Maturity_time,
-                'Coupon':'SOFR/Fed Funds',
-                'Price':pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce'),
-                'Face':100,
-                'Compound':4}
+            'Name': Treasuries.loc[i, 'Security Name'],
+            'Tenor': Tenor_time,
+            'Maturity': Maturity_time,
+            'Coupon': 0,
+            'Price': pd.to_numeric(Treasuries.loc[i, 'Price [Latest]'], errors='coerce'),
+            'Face': 100,
+            'Compound': 1
+        }
+        Zeros.append(govy)
+    # FRNs
+    elif Treasuries.loc[i, 'Coupon Type'] == 'Variable':
+        govy = {
+            'Name': Treasuries.loc[i, 'Security Name'],
+            'Tenor': round(Tenor_time, 0),
+            'Maturity': Maturity_time,
+            'Coupon': 'SOFR/Fed Funds',
+            'Price': pd.to_numeric(Treasuries.loc[i, 'Price [Latest]'], errors='coerce'),
+            'Face': 100,
+            'Compound': 4
+        }
         Frns.append(govy)
-       
-    
-    # T-bills, Notes, Bonds 
+    # T-bills, Notes, Bonds
     else:
         govy = {
-                'Name':Treasuries['Security Name'].iloc[i],
-                'Tenor':round(Tenor_time,0),
-                'Maturity':Maturity_time,
-                'Coupon':pd.to_numeric(Treasuries['Coupon Rate (%)'].iloc[i])/100,
-                'Price':pd.to_numeric(Treasuries['Price [Latest]'].iloc[i],errors='coerce'),
-                'Face':100,
-                'Compound':2}
+            'Name': Treasuries.loc[i, 'Security Name'],
+            'Tenor': round(Tenor_time, 0),
+            'Maturity': Maturity_time,
+            'Coupon': pd.to_numeric(Treasuries.loc[i, 'Coupon Rate (%)'], errors='coerce') / 100,
+            'Price': pd.to_numeric(Treasuries.loc[i, 'Price [Latest]'], errors='coerce'),
+            'Face': 100,
+            'Compound': 2
+        }
         T_s.append(govy)
-    
+
 for i in Zeros:
     try:
-        i['Yield'] = zero_bond_yield(par=i['Face'], z_bond_value=i['Price'], years=i['Maturity']) 
+        if pd.notnull(i['Price']) and pd.notnull(i['Maturity']):
+            i['Yield'] = zero_bond_yield(par=i['Face'], z_bond_value=i['Price'], years=i['Maturity'])
+        else:
+            i['Yield'] = np.nan
     except Exception:
         i['Yield'] = np.nan
 
 for i in T_s:
-    i['Yield'] = Yield_to_Maturity(par=i['Face'],coupon_rate=i['Coupon'], price=i['Price'], years=i['Maturity'], compound=i['Compound'])
+    try:
+        if pd.notnull(i['Price']) and pd.notnull(i['Maturity']) and pd.notnull(i['Coupon']):
+            i['Yield'] = Yield_to_Maturity(par=i['Face'], coupon_rate=i['Coupon'], price=i['Price'], years=i['Maturity'], compound=i['Compound'])
+        else:
+            i['Yield'] = np.nan
+    except Exception:
+        i['Yield'] = np.nan
 
 Money_market_otr = on_the_run(Zeros)
 Treasuries_otr = on_the_run(T_s)
@@ -172,53 +191,89 @@ for i in Treasuries_otr:
     zeros = strip_constructor(i)
     Treasuries_to_zeros.append(zeros)
 
+
 Curve = pd.DataFrame(Money_market_otr + Treasuries_otr).sort_values(by='Tenor').reset_index(drop=True)
-Curve.drop_duplicates(subset=['Tenor'], keep='last', inplace=True)
-Curve.set_index(Curve['Tenor'],inplace=True)
-
-forward = 1
-Curve[f'{forward} Year Forward Rates'] = np.nan
-for i in range(len(Curve)):
-    try: # Forward rate at T-t
-        if Curve.iloc[i]['Tenor'] <= forward:
-            Curve[f'{forward} Year Forward Rates'].iat[i] = Curve['Yield'].iat[i]
-        else:
-
-            Curve[f'{forward} Year Forward Rates'].iat[i] = ( # Spot rate at T
-                                                    ((1+Curve.iloc[i]['Yield'])**(Curve.iloc[i]['Tenor']))/
-                                                    # Divided by Spot rate at time t
-                                                    ((1+Curve.loc[forward,'Yield'])**(Curve.loc[forward,'Tenor']))
-                                                    # to the inverse power of T-t
-                                                      )**(1/(Curve.iloc[i]['Tenor']-forward))-1
-
-    except Exception as e:
-        Curve.iloc[i][f'{forward} Year Forward Rates'] = Curve.iloc[i]['Yield']
-        print(e)
-
-Curve[f'Implied Spot Rates {forward} Year Forward'] = np.nan
-
-for count,value in enumerate(Curve['Tenor'].unique()):
-    try: # Forward rate at T-t
-            Curve[f'Implied Spot Rates {forward} Year Forward'].iat[count] = ( # Spot rate at T
-                                                    ((1+Curve.iloc[count]['Yield'])**(Curve.iloc[count]['Tenor']))/
-                                                    # Divided by Spot rate at time t
-                                                    ((1+Curve.iat[count,'Yield'])**(Curve.iat[count-(count-1),'Tenor']))
-                                                    # to the inverse power of T-t
-                                                      )**(1/(Curve.iloc[i]['Tenor']-forward))-1
-    except Exception as e:
-        print(e)
-
-fig = go.Figure(go.Scatter(x=Curve['Tenor'], 
-                          y=Curve[f'{forward} Year Forward Rates'],
-                          mode='lines+markers')
-)
-fig.update_yaxes(tickformat=".2%", title="Yield (%)")  # Format y-axis as percentages with 2 decimals
-fig.update_xaxes(tickformat='Year', tickmode='array', tickvals=Curve['Tenor'].unique())
-fig.add_trace(go.Scatter(x=Curve['Tenor'], y=Curve['Yield'], mode='lines+markers', name='Yield Curve',))
-fig.add_table(header=Curve['Tenor'],
-              cells=[Curve['Yield'],
-                     Curve[f'{forward} Year Forward Rates']
-                     ])
-fig.show()
+Curve = Curve.drop_duplicates(subset=['Tenor'], keep='last').reset_index(drop=True)
+Curve.set_index('Tenor', inplace=True)  # Use column name directly
 
 
+for x in Curve.index:
+    forward = x
+    previous_tenor = forward
+    Curve[f'Implied Spot Rates {forward} Year Forward'] = np.nan
+    for i in range(len(Curve)):
+        try:
+            tenor_val = Curve.index[i]
+            if tenor_val < forward:
+                Curve.at[tenor_val, f'Implied Spot Rates {forward} Year Forward'] = np.nan
+            elif tenor_val == forward:
+                Curve.at[tenor_val, f'Implied Spot Rates {forward} Year Forward'] = np.nan
+                Curve.at[forward, 'Forward Yield Curve'] = Curve.at[forward, f'Implied Spot Rates {previous_tenor} Year Forward']
+            else:
+                Curve.at[tenor_val, f'Implied Spot Rates {forward} Year Forward'] = (
+                    ((1 + Curve.at[tenor_val, 'Yield']) ** tenor_val) /
+                    ((1 + Curve.at[forward, 'Yield']) ** forward)
+                ) ** (1 / (tenor_val - forward)) - 1
+        except Exception as e:
+            Curve.at[tenor_val, f'Implied Spot Rates {forward} Year Forward'] = np.nan
+
+
+def visual_curves(Forwards_curves):
+    fig = make_subplots(rows=1,cols=1,
+                        specs=[[{"type":'scatter'}],
+]
+                            )
+    fig.add_trace(
+        go.Scatter(
+            x=Curve.index, 
+            y=Curve['Yield'], 
+            mode='lines+markers', 
+            name='Yield Curve'
+            ),
+            row=1,
+            col=1)
+
+    
+    # table_headers = ['Tenor', 'Yield', 'Forward Yield Curve']
+    # table_values = [Curve.index.tolist(),round(Curve['Yield']*100,3).tolist()]
+    
+    for x in Forwards_curves.index:
+        try:
+            fig.add_trace(go.Scatter(x=Forwards_curves.index, 
+                                    y=Forwards_curves[f'Implied Spot Rates {x} Year Forward'],
+                                    name = f'{x} Year Forward Curve',
+                                    mode='lines+markers'),                                
+                                    row=1,
+                                    col=1
+            )
+            # table_headers.append(f'Implied Spot Rates {x} Year Forward')
+            # table_values.append(round(Forwards_curves[f'Implied Spot Rates {x} Year Forward']*100,3).tolist())
+        except:
+            continue
+
+    fig.update_yaxes(tickformat=".4%", title="Rate (%)",row=1,col=1)  # Format y-axis as percentages with 2 decimals
+    fig.update_xaxes(tickformat='Year', tickmode='array', tickvals=Curve.index,row=1,col=1)
+    fig.update_layout()
+    # fig.add_trace(
+    #     go.Table(
+    #                 header=dict(values=table_headers
+    #             ),
+    #                 cells=dict(values=table_values)
+    #             ),
+    #             row=2,
+    #             col= 1
+    #             )
+    # fig.add_trace(
+    #     go.Table(
+    #                 header=dict(values=Forwards_curves.columns[:8]
+    #             ),
+    #                 cells=dict(values=[(Forwards_curves[col]).to_list() for col in Forwards_curves.columns[:8]])
+    #             ),
+    #             row=3,
+    #             col=1
+    #             )
+    return fig
+
+Forwards = visual_curves(Curve)
+
+Forwards.show()

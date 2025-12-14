@@ -89,10 +89,11 @@ T10101,A191RL,1,Gross domestic product,2016,Fisher Quantity Index,"Percent chang
 T10101,A191RL,1,Gross domestic product,2017,Fisher Quantity Index,"Percent change, annual rate",0,2.5,T10101
 T10101,A191RL,1,Gross domestic product,2018,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
 T10101,A191RL,1,Gross domestic product,2019,Fisher Quantity Index,"Percent change, annual rate",0,2.6,T10101
-T10101,A191RL,1,Gross domestic product,2020,Fisher Quantity Index,"Percent change, annual rate",0,-2.2,T10101
-T10101,A191RL,1,Gross domestic product,2021,Fisher Quantity Index,"Percent change, annual rate",0,6.1,T10101
+T10101,A191RL,1,Gross domestic product,2020,Fisher Quantity Index,"Percent change, annual rate",0,-2.1,T10101
+T10101,A191RL,1,Gross domestic product,2021,Fisher Quantity Index,"Percent change, annual rate",0,6.2,T10101
 T10101,A191RL,1,Gross domestic product,2022,Fisher Quantity Index,"Percent change, annual rate",0,2.5,T10101
 T10101,A191RL,1,Gross domestic product,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
+T10101,A191RL,1,Gross domestic product,2024,Fisher Quantity Index,"Percent change, annual rate",0,2.8,T10101
 T10101,DPCERL,2,Personal consumption expenditures,1930,Fisher Quantity Index,"Percent change, annual rate",0,-5.4,T10101
 T10101,DPCERL,2,Personal consumption expenditures,1931,Fisher Quantity Index,"Percent change, annual rate",0,-3.1,T10101
 T10101,DPCERL,2,Personal consumption expenditures,1932,Fisher Quantity Index,"Percent change, annual rate",0,-9.0,T10101
@@ -186,7 +187,8 @@ T10101,DPCERL,2,Personal consumption expenditures,2019,Fisher Quantity Index,"Pe
 T10101,DPCERL,2,Personal consumption expenditures,2020,Fisher Quantity Index,"Percent change, annual rate",0,-2.5,T10101
 T10101,DPCERL,2,Personal consumption expenditures,2021,Fisher Quantity Index,"Percent change, annual rate",0,8.8,T10101
 T10101,DPCERL,2,Personal consumption expenditures,2022,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
-T10101,DPCERL,2,Personal consumption expenditures,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.5,T10101
+T10101,DPCERL,2,Personal consumption expenditures,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.6,T10101
+T10101,DPCERL,2,Personal consumption expenditures,2024,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
 T10101,DGDSRL,3,Goods,1930,Fisher Quantity Index,"Percent change, annual rate",0,-7.9,T10101
 T10101,DGDSRL,3,Goods,1931,Fisher Quantity Index,"Percent change, annual rate",0,-3.6,T10101
 T10101,DGDSRL,3,Goods,1932,Fisher Quantity Index,"Percent change, annual rate",0,-11.7,T10101
@@ -277,10 +279,11 @@ T10101,DGDSRL,3,Goods,2016,Fisher Quantity Index,"Percent change, annual rate",0
 T10101,DGDSRL,3,Goods,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.1,T10101
 T10101,DGDSRL,3,Goods,2018,Fisher Quantity Index,"Percent change, annual rate",0,4.0,T10101
 T10101,DGDSRL,3,Goods,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.1,T10101
-T10101,DGDSRL,3,Goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,4.6,T10101
+T10101,DGDSRL,3,Goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,4.7,T10101
 T10101,DGDSRL,3,Goods,2021,Fisher Quantity Index,"Percent change, annual rate",0,11.3,T10101
 T10101,DGDSRL,3,Goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,-0.6,T10101
-T10101,DGDSRL,3,Goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,1.9,T10101
+T10101,DGDSRL,3,Goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,1.7,T10101
+T10101,DGDSRL,3,Goods,2024,Fisher Quantity Index,"Percent change, annual rate",0,2.8,T10101
 T10101,DDURRL,4,Durable goods,1930,Fisher Quantity Index,"Percent change, annual rate",0,-17.2,T10101
 T10101,DDURRL,4,Durable goods,1931,Fisher Quantity Index,"Percent change, annual rate",0,-13.6,T10101
 T10101,DDURRL,4,Durable goods,1932,Fisher Quantity Index,"Percent change, annual rate",0,-24.0,T10101
@@ -371,10 +374,11 @@ T10101,DDURRL,4,Durable goods,2016,Fisher Quantity Index,"Percent change, annual
 T10101,DDURRL,4,Durable goods,2017,Fisher Quantity Index,"Percent change, annual rate",0,6.8,T10101
 T10101,DDURRL,4,Durable goods,2018,Fisher Quantity Index,"Percent change, annual rate",0,6.6,T10101
 T10101,DDURRL,4,Durable goods,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.3,T10101
-T10101,DDURRL,4,Durable goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,7.1,T10101
-T10101,DDURRL,4,Durable goods,2021,Fisher Quantity Index,"Percent change, annual rate",0,16.6,T10101
-T10101,DDURRL,4,Durable goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,-1.9,T10101
-T10101,DDURRL,4,Durable goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.9,T10101
+T10101,DDURRL,4,Durable goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,7.4,T10101
+T10101,DDURRL,4,Durable goods,2021,Fisher Quantity Index,"Percent change, annual rate",0,16.4,T10101
+T10101,DDURRL,4,Durable goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,-2.0,T10101
+T10101,DDURRL,4,Durable goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
+T10101,DDURRL,4,Durable goods,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.9,T10101
 T10101,DNDGRL,5,Nondurable goods,1930,Fisher Quantity Index,"Percent change, annual rate",0,-5.2,T10101
 T10101,DNDGRL,5,Nondurable goods,1931,Fisher Quantity Index,"Percent change, annual rate",0,-1.1,T10101
 T10101,DNDGRL,5,Nondurable goods,1932,Fisher Quantity Index,"Percent change, annual rate",0,-8.8,T10101
@@ -465,10 +469,11 @@ T10101,DNDGRL,5,Nondurable goods,2016,Fisher Quantity Index,"Percent change, ann
 T10101,DNDGRL,5,Nondurable goods,2017,Fisher Quantity Index,"Percent change, annual rate",0,2.8,T10101
 T10101,DNDGRL,5,Nondurable goods,2018,Fisher Quantity Index,"Percent change, annual rate",0,2.6,T10101
 T10101,DNDGRL,5,Nondurable goods,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
-T10101,DNDGRL,5,Nondurable goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,3.4,T10101
+T10101,DNDGRL,5,Nondurable goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,3.3,T10101
 T10101,DNDGRL,5,Nondurable goods,2021,Fisher Quantity Index,"Percent change, annual rate",0,8.6,T10101
-T10101,DNDGRL,5,Nondurable goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,0.1,T10101
-T10101,DNDGRL,5,Nondurable goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,0.8,T10101
+T10101,DNDGRL,5,Nondurable goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,0.2,T10101
+T10101,DNDGRL,5,Nondurable goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,0.6,T10101
+T10101,DNDGRL,5,Nondurable goods,2024,Fisher Quantity Index,"Percent change, annual rate",0,2.3,T10101
 T10101,DSERRL,6,Services,1930,Fisher Quantity Index,"Percent change, annual rate",0,-2.1,T10101
 T10101,DSERRL,6,Services,1931,Fisher Quantity Index,"Percent change, annual rate",0,-2.5,T10101
 T10101,DSERRL,6,Services,1932,Fisher Quantity Index,"Percent change, annual rate",0,-6.0,T10101
@@ -560,9 +565,10 @@ T10101,DSERRL,6,Services,2017,Fisher Quantity Index,"Percent change, annual rate
 T10101,DSERRL,6,Services,2018,Fisher Quantity Index,"Percent change, annual rate",0,2.2,T10101
 T10101,DSERRL,6,Services,2019,Fisher Quantity Index,"Percent change, annual rate",0,1.7,T10101
 T10101,DSERRL,6,Services,2020,Fisher Quantity Index,"Percent change, annual rate",0,-5.8,T10101
-T10101,DSERRL,6,Services,2021,Fisher Quantity Index,"Percent change, annual rate",0,7.5,T10101
-T10101,DSERRL,6,Services,2022,Fisher Quantity Index,"Percent change, annual rate",0,5.0,T10101
-T10101,DSERRL,6,Services,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
+T10101,DSERRL,6,Services,2021,Fisher Quantity Index,"Percent change, annual rate",0,7.6,T10101
+T10101,DSERRL,6,Services,2022,Fisher Quantity Index,"Percent change, annual rate",0,4.9,T10101
+T10101,DSERRL,6,Services,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
+T10101,DSERRL,6,Services,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
 T10101,A006RL,7,Gross private domestic investment,1930,Fisher Quantity Index,"Percent change, annual rate",0,-31.9,T10101
 T10101,A006RL,7,Gross private domestic investment,1931,Fisher Quantity Index,"Percent change, annual rate",0,-35.0,T10101
 T10101,A006RL,7,Gross private domestic investment,1932,Fisher Quantity Index,"Percent change, annual rate",0,-63.1,T10101
@@ -653,10 +659,11 @@ T10101,A006RL,7,Gross private domestic investment,2016,Fisher Quantity Index,"Pe
 T10101,A006RL,7,Gross private domestic investment,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.4,T10101
 T10101,A006RL,7,Gross private domestic investment,2018,Fisher Quantity Index,"Percent change, annual rate",0,5.8,T10101
 T10101,A006RL,7,Gross private domestic investment,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.2,T10101
-T10101,A006RL,7,Gross private domestic investment,2020,Fisher Quantity Index,"Percent change, annual rate",0,-4.5,T10101
-T10101,A006RL,7,Gross private domestic investment,2021,Fisher Quantity Index,"Percent change, annual rate",0,8.8,T10101
-T10101,A006RL,7,Gross private domestic investment,2022,Fisher Quantity Index,"Percent change, annual rate",0,6.0,T10101
-T10101,A006RL,7,Gross private domestic investment,2023,Fisher Quantity Index,"Percent change, annual rate",0,0.1,T10101
+T10101,A006RL,7,Gross private domestic investment,2020,Fisher Quantity Index,"Percent change, annual rate",0,-4.4,T10101
+T10101,A006RL,7,Gross private domestic investment,2021,Fisher Quantity Index,"Percent change, annual rate",0,9.0,T10101
+T10101,A006RL,7,Gross private domestic investment,2022,Fisher Quantity Index,"Percent change, annual rate",0,6.1,T10101
+T10101,A006RL,7,Gross private domestic investment,2023,Fisher Quantity Index,"Percent change, annual rate",0,0.8,T10101
+T10101,A006RL,7,Gross private domestic investment,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
 T10101,A007RL,8,Fixed investment,1930,Fisher Quantity Index,"Percent change, annual rate",0,-22.3,T10101
 T10101,A007RL,8,Fixed investment,1931,Fisher Quantity Index,"Percent change, annual rate",0,-28.9,T10101
 T10101,A007RL,8,Fixed investment,1932,Fisher Quantity Index,"Percent change, annual rate",0,-38.4,T10101
@@ -749,8 +756,9 @@ T10101,A007RL,8,Fixed investment,2018,Fisher Quantity Index,"Percent change, ann
 T10101,A007RL,8,Fixed investment,2019,Fisher Quantity Index,"Percent change, annual rate",0,2.7,T10101
 T10101,A007RL,8,Fixed investment,2020,Fisher Quantity Index,"Percent change, annual rate",0,-1.9,T10101
 T10101,A007RL,8,Fixed investment,2021,Fisher Quantity Index,"Percent change, annual rate",0,7.3,T10101
-T10101,A007RL,8,Fixed investment,2022,Fisher Quantity Index,"Percent change, annual rate",0,2.7,T10101
-T10101,A007RL,8,Fixed investment,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.4,T10101
+T10101,A007RL,8,Fixed investment,2022,Fisher Quantity Index,"Percent change, annual rate",0,2.5,T10101
+T10101,A007RL,8,Fixed investment,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.4,T10101
+T10101,A007RL,8,Fixed investment,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
 T10101,A008RL,9,Nonresidential,1930,Fisher Quantity Index,"Percent change, annual rate",0,-16.7,T10101
 T10101,A008RL,9,Nonresidential,1931,Fisher Quantity Index,"Percent change, annual rate",0,-32.7,T10101
 T10101,A008RL,9,Nonresidential,1932,Fisher Quantity Index,"Percent change, annual rate",0,-36.9,T10101
@@ -842,9 +850,10 @@ T10101,A008RL,9,Nonresidential,2017,Fisher Quantity Index,"Percent change, annua
 T10101,A008RL,9,Nonresidential,2018,Fisher Quantity Index,"Percent change, annual rate",0,6.9,T10101
 T10101,A008RL,9,Nonresidential,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
 T10101,A008RL,9,Nonresidential,2020,Fisher Quantity Index,"Percent change, annual rate",0,-4.6,T10101
-T10101,A008RL,9,Nonresidential,2021,Fisher Quantity Index,"Percent change, annual rate",0,6.0,T10101
-T10101,A008RL,9,Nonresidential,2022,Fisher Quantity Index,"Percent change, annual rate",0,7.0,T10101
-T10101,A008RL,9,Nonresidential,2023,Fisher Quantity Index,"Percent change, annual rate",0,6.0,T10101
+T10101,A008RL,9,Nonresidential,2021,Fisher Quantity Index,"Percent change, annual rate",0,6.2,T10101
+T10101,A008RL,9,Nonresidential,2022,Fisher Quantity Index,"Percent change, annual rate",0,6.5,T10101
+T10101,A008RL,9,Nonresidential,2023,Fisher Quantity Index,"Percent change, annual rate",0,7.3,T10101
+T10101,A008RL,9,Nonresidential,2024,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
 T10101,A009RL,10,Structures,1930,Fisher Quantity Index,"Percent change, annual rate",0,-14.4,T10101
 T10101,A009RL,10,Structures,1931,Fisher Quantity Index,"Percent change, annual rate",0,-35.6,T10101
 T10101,A009RL,10,Structures,1932,Fisher Quantity Index,"Percent change, annual rate",0,-38.8,T10101
@@ -936,9 +945,10 @@ T10101,A009RL,10,Structures,2017,Fisher Quantity Index,"Percent change, annual r
 T10101,A009RL,10,Structures,2018,Fisher Quantity Index,"Percent change, annual rate",0,5.8,T10101
 T10101,A009RL,10,Structures,2019,Fisher Quantity Index,"Percent change, annual rate",0,2.3,T10101
 T10101,A009RL,10,Structures,2020,Fisher Quantity Index,"Percent change, annual rate",0,-9.2,T10101
-T10101,A009RL,10,Structures,2021,Fisher Quantity Index,"Percent change, annual rate",0,-2.6,T10101
-T10101,A009RL,10,Structures,2022,Fisher Quantity Index,"Percent change, annual rate",0,3.6,T10101
-T10101,A009RL,10,Structures,2023,Fisher Quantity Index,"Percent change, annual rate",0,10.8,T10101
+T10101,A009RL,10,Structures,2021,Fisher Quantity Index,"Percent change, annual rate",0,-2.7,T10101
+T10101,A009RL,10,Structures,2022,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
+T10101,A009RL,10,Structures,2023,Fisher Quantity Index,"Percent change, annual rate",0,16.7,T10101
+T10101,A009RL,10,Structures,2024,Fisher Quantity Index,"Percent change, annual rate",0,1.1,T10101
 T10101,Y033RL,11,Equipment,1930,Fisher Quantity Index,"Percent change, annual rate",0,-20.7,T10101
 T10101,Y033RL,11,Equipment,1931,Fisher Quantity Index,"Percent change, annual rate",0,-33.3,T10101
 T10101,Y033RL,11,Equipment,1932,Fisher Quantity Index,"Percent change, annual rate",0,-41.4,T10101
@@ -1029,10 +1039,11 @@ T10101,Y033RL,11,Equipment,2016,Fisher Quantity Index,"Percent change, annual ra
 T10101,Y033RL,11,Equipment,2017,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
 T10101,Y033RL,11,Equipment,2018,Fisher Quantity Index,"Percent change, annual rate",0,5.9,T10101
 T10101,Y033RL,11,Equipment,2019,Fisher Quantity Index,"Percent change, annual rate",0,1.0,T10101
-T10101,Y033RL,11,Equipment,2020,Fisher Quantity Index,"Percent change, annual rate",0,-10.1,T10101
-T10101,Y033RL,11,Equipment,2021,Fisher Quantity Index,"Percent change, annual rate",0,6.7,T10101
-T10101,Y033RL,11,Equipment,2022,Fisher Quantity Index,"Percent change, annual rate",0,4.4,T10101
-T10101,Y033RL,11,Equipment,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
+T10101,Y033RL,11,Equipment,2020,Fisher Quantity Index,"Percent change, annual rate",0,-9.9,T10101
+T10101,Y033RL,11,Equipment,2021,Fisher Quantity Index,"Percent change, annual rate",0,7.1,T10101
+T10101,Y033RL,11,Equipment,2022,Fisher Quantity Index,"Percent change, annual rate",0,2.8,T10101
+T10101,Y033RL,11,Equipment,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
+T10101,Y033RL,11,Equipment,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
 T10101,Y001RL,12,Intellectual property products,1930,Fisher Quantity Index,"Percent change, annual rate",0,0.8,T10101
 T10101,Y001RL,12,Intellectual property products,1931,Fisher Quantity Index,"Percent change, annual rate",0,-4.0,T10101
 T10101,Y001RL,12,Intellectual property products,1932,Fisher Quantity Index,"Percent change, annual rate",0,-2.9,T10101
@@ -1124,9 +1135,10 @@ T10101,Y001RL,12,Intellectual property products,2017,Fisher Quantity Index,"Perc
 T10101,Y001RL,12,Intellectual property products,2018,Fisher Quantity Index,"Percent change, annual rate",0,8.9,T10101
 T10101,Y001RL,12,Intellectual property products,2019,Fisher Quantity Index,"Percent change, annual rate",0,8.2,T10101
 T10101,Y001RL,12,Intellectual property products,2020,Fisher Quantity Index,"Percent change, annual rate",0,4.5,T10101
-T10101,Y001RL,12,Intellectual property products,2021,Fisher Quantity Index,"Percent change, annual rate",0,10.2,T10101
-T10101,Y001RL,12,Intellectual property products,2022,Fisher Quantity Index,"Percent change, annual rate",0,11.2,T10101
-T10101,Y001RL,12,Intellectual property products,2023,Fisher Quantity Index,"Percent change, annual rate",0,5.8,T10101
+T10101,Y001RL,12,Intellectual property products,2021,Fisher Quantity Index,"Percent change, annual rate",0,10.4,T10101
+T10101,Y001RL,12,Intellectual property products,2022,Fisher Quantity Index,"Percent change, annual rate",0,11.7,T10101
+T10101,Y001RL,12,Intellectual property products,2023,Fisher Quantity Index,"Percent change, annual rate",0,6.2,T10101
+T10101,Y001RL,12,Intellectual property products,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
 T10101,A011RL,13,Residential,1930,Fisher Quantity Index,"Percent change, annual rate",0,-38.1,T10101
 T10101,A011RL,13,Residential,1931,Fisher Quantity Index,"Percent change, annual rate",0,-15.0,T10101
 T10101,A011RL,13,Residential,1932,Fisher Quantity Index,"Percent change, annual rate",0,-43.5,T10101
@@ -1217,10 +1229,11 @@ T10101,A011RL,13,Residential,2016,Fisher Quantity Index,"Percent change, annual 
 T10101,A011RL,13,Residential,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.3,T10101
 T10101,A011RL,13,Residential,2018,Fisher Quantity Index,"Percent change, annual rate",0,-0.7,T10101
 T10101,A011RL,13,Residential,2019,Fisher Quantity Index,"Percent change, annual rate",0,-0.9,T10101
-T10101,A011RL,13,Residential,2020,Fisher Quantity Index,"Percent change, annual rate",0,7.7,T10101
-T10101,A011RL,13,Residential,2021,Fisher Quantity Index,"Percent change, annual rate",0,10.9,T10101
-T10101,A011RL,13,Residential,2022,Fisher Quantity Index,"Percent change, annual rate",0,-8.6,T10101
-T10101,A011RL,13,Residential,2023,Fisher Quantity Index,"Percent change, annual rate",0,-8.3,T10101
+T10101,A011RL,13,Residential,2020,Fisher Quantity Index,"Percent change, annual rate",0,7.4,T10101
+T10101,A011RL,13,Residential,2021,Fisher Quantity Index,"Percent change, annual rate",0,10.6,T10101
+T10101,A011RL,13,Residential,2022,Fisher Quantity Index,"Percent change, annual rate",0,-8.1,T10101
+T10101,A011RL,13,Residential,2023,Fisher Quantity Index,"Percent change, annual rate",0,-7.8,T10101
+T10101,A011RL,13,Residential,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.2,T10101
 T10101,A020RL,16,Exports,1930,Fisher Quantity Index,"Percent change, annual rate",0,-17.3,T10101
 T10101,A020RL,16,Exports,1931,Fisher Quantity Index,"Percent change, annual rate",0,-16.9,T10101
 T10101,A020RL,16,Exports,1932,Fisher Quantity Index,"Percent change, annual rate",0,-21.7,T10101
@@ -1311,10 +1324,11 @@ T10101,A020RL,16,Exports,2016,Fisher Quantity Index,"Percent change, annual rate
 T10101,A020RL,16,Exports,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.1,T10101
 T10101,A020RL,16,Exports,2018,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
 T10101,A020RL,16,Exports,2019,Fisher Quantity Index,"Percent change, annual rate",0,0.5,T10101
-T10101,A020RL,16,Exports,2020,Fisher Quantity Index,"Percent change, annual rate",0,-13.1,T10101
+T10101,A020RL,16,Exports,2020,Fisher Quantity Index,"Percent change, annual rate",0,-12.6,T10101
 T10101,A020RL,16,Exports,2021,Fisher Quantity Index,"Percent change, annual rate",0,6.5,T10101
-T10101,A020RL,16,Exports,2022,Fisher Quantity Index,"Percent change, annual rate",0,7.5,T10101
+T10101,A020RL,16,Exports,2022,Fisher Quantity Index,"Percent change, annual rate",0,7.6,T10101
 T10101,A020RL,16,Exports,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.8,T10101
+T10101,A020RL,16,Exports,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.6,T10101
 T10101,A253RL,17,Goods,1930,Fisher Quantity Index,"Percent change, annual rate",0,-17.9,T10101
 T10101,A253RL,17,Goods,1931,Fisher Quantity Index,"Percent change, annual rate",0,-17.3,T10101
 T10101,A253RL,17,Goods,1932,Fisher Quantity Index,"Percent change, annual rate",0,-22.5,T10101
@@ -1405,10 +1419,11 @@ T10101,A253RL,17,Goods,2016,Fisher Quantity Index,"Percent change, annual rate",
 T10101,A253RL,17,Goods,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.1,T10101
 T10101,A253RL,17,Goods,2018,Fisher Quantity Index,"Percent change, annual rate",0,4.2,T10101
 T10101,A253RL,17,Goods,2019,Fisher Quantity Index,"Percent change, annual rate",0,0.2,T10101
-T10101,A253RL,17,Goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,-10.1,T10101
+T10101,A253RL,17,Goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,-10.0,T10101
 T10101,A253RL,17,Goods,2021,Fisher Quantity Index,"Percent change, annual rate",0,7.7,T10101
-T10101,A253RL,17,Goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,5.9,T10101
-T10101,A253RL,17,Goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.3,T10101
+T10101,A253RL,17,Goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,6.1,T10101
+T10101,A253RL,17,Goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.2,T10101
+T10101,A253RL,17,Goods,2024,Fisher Quantity Index,"Percent change, annual rate",0,2.0,T10101
 T10101,A646RL,18,Services,1930,Fisher Quantity Index,"Percent change, annual rate",0,-13.0,T10101
 T10101,A646RL,18,Services,1931,Fisher Quantity Index,"Percent change, annual rate",0,-14.1,T10101
 T10101,A646RL,18,Services,1932,Fisher Quantity Index,"Percent change, annual rate",0,-16.7,T10101
@@ -1499,10 +1514,11 @@ T10101,A646RL,18,Services,2016,Fisher Quantity Index,"Percent change, annual rat
 T10101,A646RL,18,Services,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.1,T10101
 T10101,A646RL,18,Services,2018,Fisher Quantity Index,"Percent change, annual rate",0,0.3,T10101
 T10101,A646RL,18,Services,2019,Fisher Quantity Index,"Percent change, annual rate",0,1.2,T10101
-T10101,A646RL,18,Services,2020,Fisher Quantity Index,"Percent change, annual rate",0,-18.7,T10101
+T10101,A646RL,18,Services,2020,Fisher Quantity Index,"Percent change, annual rate",0,-17.3,T10101
 T10101,A646RL,18,Services,2021,Fisher Quantity Index,"Percent change, annual rate",0,4.0,T10101
-T10101,A646RL,18,Services,2022,Fisher Quantity Index,"Percent change, annual rate",0,11.1,T10101
-T10101,A646RL,18,Services,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
+T10101,A646RL,18,Services,2022,Fisher Quantity Index,"Percent change, annual rate",0,10.9,T10101
+T10101,A646RL,18,Services,2023,Fisher Quantity Index,"Percent change, annual rate",0,4.1,T10101
+T10101,A646RL,18,Services,2024,Fisher Quantity Index,"Percent change, annual rate",0,6.7,T10101
 T10101,A021RL,19,Imports,1930,Fisher Quantity Index,"Percent change, annual rate",0,-13.0,T10101
 T10101,A021RL,19,Imports,1931,Fisher Quantity Index,"Percent change, annual rate",0,-12.8,T10101
 T10101,A021RL,19,Imports,1932,Fisher Quantity Index,"Percent change, annual rate",0,-17.0,T10101
@@ -1593,10 +1609,11 @@ T10101,A021RL,19,Imports,2016,Fisher Quantity Index,"Percent change, annual rate
 T10101,A021RL,19,Imports,2017,Fisher Quantity Index,"Percent change, annual rate",0,4.7,T10101
 T10101,A021RL,19,Imports,2018,Fisher Quantity Index,"Percent change, annual rate",0,4.0,T10101
 T10101,A021RL,19,Imports,2019,Fisher Quantity Index,"Percent change, annual rate",0,1.2,T10101
-T10101,A021RL,19,Imports,2020,Fisher Quantity Index,"Percent change, annual rate",0,-9.0,T10101
-T10101,A021RL,19,Imports,2021,Fisher Quantity Index,"Percent change, annual rate",0,14.7,T10101
-T10101,A021RL,19,Imports,2022,Fisher Quantity Index,"Percent change, annual rate",0,8.6,T10101
-T10101,A021RL,19,Imports,2023,Fisher Quantity Index,"Percent change, annual rate",0,-1.2,T10101
+T10101,A021RL,19,Imports,2020,Fisher Quantity Index,"Percent change, annual rate",0,-8.8,T10101
+T10101,A021RL,19,Imports,2021,Fisher Quantity Index,"Percent change, annual rate",0,14.6,T10101
+T10101,A021RL,19,Imports,2022,Fisher Quantity Index,"Percent change, annual rate",0,8.5,T10101
+T10101,A021RL,19,Imports,2023,Fisher Quantity Index,"Percent change, annual rate",0,-0.9,T10101
+T10101,A021RL,19,Imports,2024,Fisher Quantity Index,"Percent change, annual rate",0,5.8,T10101
 T10101,A255RL,20,Goods,1930,Fisher Quantity Index,"Percent change, annual rate",0,-15.7,T10101
 T10101,A255RL,20,Goods,1931,Fisher Quantity Index,"Percent change, annual rate",0,-12.7,T10101
 T10101,A255RL,20,Goods,1932,Fisher Quantity Index,"Percent change, annual rate",0,-19.1,T10101
@@ -1690,7 +1707,8 @@ T10101,A255RL,20,Goods,2019,Fisher Quantity Index,"Percent change, annual rate",
 T10101,A255RL,20,Goods,2020,Fisher Quantity Index,"Percent change, annual rate",0,-5.9,T10101
 T10101,A255RL,20,Goods,2021,Fisher Quantity Index,"Percent change, annual rate",0,14.5,T10101
 T10101,A255RL,20,Goods,2022,Fisher Quantity Index,"Percent change, annual rate",0,6.7,T10101
-T10101,A255RL,20,Goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,-1.8,T10101
+T10101,A255RL,20,Goods,2023,Fisher Quantity Index,"Percent change, annual rate",0,-1.9,T10101
+T10101,A255RL,20,Goods,2024,Fisher Quantity Index,"Percent change, annual rate",0,5.2,T10101
 T10101,A656RL,21,Services,1930,Fisher Quantity Index,"Percent change, annual rate",0,-2.8,T10101
 T10101,A656RL,21,Services,1931,Fisher Quantity Index,"Percent change, annual rate",0,-13.1,T10101
 T10101,A656RL,21,Services,1932,Fisher Quantity Index,"Percent change, annual rate",0,-11.5,T10101
@@ -1781,10 +1799,11 @@ T10101,A656RL,21,Services,2016,Fisher Quantity Index,"Percent change, annual rat
 T10101,A656RL,21,Services,2017,Fisher Quantity Index,"Percent change, annual rate",0,5.7,T10101
 T10101,A656RL,21,Services,2018,Fisher Quantity Index,"Percent change, annual rate",0,-0.6,T10101
 T10101,A656RL,21,Services,2019,Fisher Quantity Index,"Percent change, annual rate",0,4.0,T10101
-T10101,A656RL,21,Services,2020,Fisher Quantity Index,"Percent change, annual rate",0,-21.8,T10101
-T10101,A656RL,21,Services,2021,Fisher Quantity Index,"Percent change, annual rate",0,15.7,T10101
-T10101,A656RL,21,Services,2022,Fisher Quantity Index,"Percent change, annual rate",0,17.8,T10101
-T10101,A656RL,21,Services,2023,Fisher Quantity Index,"Percent change, annual rate",0,1.6,T10101
+T10101,A656RL,21,Services,2020,Fisher Quantity Index,"Percent change, annual rate",0,-21.0,T10101
+T10101,A656RL,21,Services,2021,Fisher Quantity Index,"Percent change, annual rate",0,15.0,T10101
+T10101,A656RL,21,Services,2022,Fisher Quantity Index,"Percent change, annual rate",0,17.1,T10101
+T10101,A656RL,21,Services,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
+T10101,A656RL,21,Services,2024,Fisher Quantity Index,"Percent change, annual rate",0,8.2,T10101
 T10101,A822RL,22,Government consumption expenditures and gross investment,1930,Fisher Quantity Index,"Percent change, annual rate",0,10.1,T10101
 T10101,A822RL,22,Government consumption expenditures and gross investment,1931,Fisher Quantity Index,"Percent change, annual rate",0,4.1,T10101
 T10101,A822RL,22,Government consumption expenditures and gross investment,1932,Fisher Quantity Index,"Percent change, annual rate",0,-3.2,T10101
@@ -1876,9 +1895,10 @@ T10101,A822RL,22,Government consumption expenditures and gross investment,2017,F
 T10101,A822RL,22,Government consumption expenditures and gross investment,2018,Fisher Quantity Index,"Percent change, annual rate",0,2.0,T10101
 T10101,A822RL,22,Government consumption expenditures and gross investment,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.9,T10101
 T10101,A822RL,22,Government consumption expenditures and gross investment,2020,Fisher Quantity Index,"Percent change, annual rate",0,3.4,T10101
-T10101,A822RL,22,Government consumption expenditures and gross investment,2021,Fisher Quantity Index,"Percent change, annual rate",0,-0.3,T10101
-T10101,A822RL,22,Government consumption expenditures and gross investment,2022,Fisher Quantity Index,"Percent change, annual rate",0,-1.1,T10101
-T10101,A822RL,22,Government consumption expenditures and gross investment,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.9,T10101
+T10101,A822RL,22,Government consumption expenditures and gross investment,2021,Fisher Quantity Index,"Percent change, annual rate",0,-0.1,T10101
+T10101,A822RL,22,Government consumption expenditures and gross investment,2022,Fisher Quantity Index,"Percent change, annual rate",0,-1.2,T10101
+T10101,A822RL,22,Government consumption expenditures and gross investment,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
+T10101,A822RL,22,Government consumption expenditures and gross investment,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
 T10101,A823RL,23,Federal,1930,Fisher Quantity Index,"Percent change, annual rate",0,10.7,T10101
 T10101,A823RL,23,Federal,1931,Fisher Quantity Index,"Percent change, annual rate",0,3.2,T10101
 T10101,A823RL,23,Federal,1932,Fisher Quantity Index,"Percent change, annual rate",0,2.1,T10101
@@ -1970,9 +1990,10 @@ T10101,A823RL,23,Federal,2017,Fisher Quantity Index,"Percent change, annual rate
 T10101,A823RL,23,Federal,2018,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
 T10101,A823RL,23,Federal,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
 T10101,A823RL,23,Federal,2020,Fisher Quantity Index,"Percent change, annual rate",0,6.3,T10101
-T10101,A823RL,23,Federal,2021,Fisher Quantity Index,"Percent change, annual rate",0,1.8,T10101
-T10101,A823RL,23,Federal,2022,Fisher Quantity Index,"Percent change, annual rate",0,-3.2,T10101
-T10101,A823RL,23,Federal,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
+T10101,A823RL,23,Federal,2021,Fisher Quantity Index,"Percent change, annual rate",0,1.9,T10101
+T10101,A823RL,23,Federal,2022,Fisher Quantity Index,"Percent change, annual rate",0,-3.3,T10101
+T10101,A823RL,23,Federal,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.3,T10101
+T10101,A823RL,23,Federal,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
 T10101,A824RL,24,National defense,1930,Fisher Quantity Index,"Percent change, annual rate",0,6.6,T10101
 T10101,A824RL,24,National defense,1931,Fisher Quantity Index,"Percent change, annual rate",0,0.4,T10101
 T10101,A824RL,24,National defense,1932,Fisher Quantity Index,"Percent change, annual rate",0,-0.3,T10101
@@ -2063,10 +2084,11 @@ T10101,A824RL,24,National defense,2016,Fisher Quantity Index,"Percent change, an
 T10101,A824RL,24,National defense,2017,Fisher Quantity Index,"Percent change, annual rate",0,1.0,T10101
 T10101,A824RL,24,National defense,2018,Fisher Quantity Index,"Percent change, annual rate",0,3.5,T10101
 T10101,A824RL,24,National defense,2019,Fisher Quantity Index,"Percent change, annual rate",0,5.4,T10101
-T10101,A824RL,24,National defense,2020,Fisher Quantity Index,"Percent change, annual rate",0,3.0,T10101
-T10101,A824RL,24,National defense,2021,Fisher Quantity Index,"Percent change, annual rate",0,-1.0,T10101
-T10101,A824RL,24,National defense,2022,Fisher Quantity Index,"Percent change, annual rate",0,-3.9,T10101
-T10101,A824RL,24,National defense,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.2,T10101
+T10101,A824RL,24,National defense,2020,Fisher Quantity Index,"Percent change, annual rate",0,2.9,T10101
+T10101,A824RL,24,National defense,2021,Fisher Quantity Index,"Percent change, annual rate",0,-0.9,T10101
+T10101,A824RL,24,National defense,2022,Fisher Quantity Index,"Percent change, annual rate",0,-3.8,T10101
+T10101,A824RL,24,National defense,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.7,T10101
+T10101,A824RL,24,National defense,2024,Fisher Quantity Index,"Percent change, annual rate",0,4.0,T10101
 T10101,A825RL,25,Nondefense,1930,Fisher Quantity Index,"Percent change, annual rate",0,15.8,T10101
 T10101,A825RL,25,Nondefense,1931,Fisher Quantity Index,"Percent change, annual rate",0,6.3,T10101
 T10101,A825RL,25,Nondefense,1932,Fisher Quantity Index,"Percent change, annual rate",0,4.9,T10101
@@ -2157,10 +2179,11 @@ T10101,A825RL,25,Nondefense,2016,Fisher Quantity Index,"Percent change, annual r
 T10101,A825RL,25,Nondefense,2017,Fisher Quantity Index,"Percent change, annual rate",0,-0.2,T10101
 T10101,A825RL,25,Nondefense,2018,Fisher Quantity Index,"Percent change, annual rate",0,3.4,T10101
 T10101,A825RL,25,Nondefense,2019,Fisher Quantity Index,"Percent change, annual rate",0,1.6,T10101
-T10101,A825RL,25,Nondefense,2020,Fisher Quantity Index,"Percent change, annual rate",0,11.2,T10101
-T10101,A825RL,25,Nondefense,2021,Fisher Quantity Index,"Percent change, annual rate",0,5.8,T10101
-T10101,A825RL,25,Nondefense,2022,Fisher Quantity Index,"Percent change, annual rate",0,-2.3,T10101
-T10101,A825RL,25,Nondefense,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.5,T10101
+T10101,A825RL,25,Nondefense,2020,Fisher Quantity Index,"Percent change, annual rate",0,11.5,T10101
+T10101,A825RL,25,Nondefense,2021,Fisher Quantity Index,"Percent change, annual rate",0,5.7,T10101
+T10101,A825RL,25,Nondefense,2022,Fisher Quantity Index,"Percent change, annual rate",0,-2.7,T10101
+T10101,A825RL,25,Nondefense,2023,Fisher Quantity Index,"Percent change, annual rate",0,2.8,T10101
+T10101,A825RL,25,Nondefense,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.6,T10101
 T10101,A829RL,26,State and local,1930,Fisher Quantity Index,"Percent change, annual rate",0,10.0,T10101
 T10101,A829RL,26,State and local,1931,Fisher Quantity Index,"Percent change, annual rate",0,4.3,T10101
 T10101,A829RL,26,State and local,1932,Fisher Quantity Index,"Percent change, annual rate",0,-4.6,T10101
@@ -2252,9 +2275,10 @@ T10101,A829RL,26,State and local,2017,Fisher Quantity Index,"Percent change, ann
 T10101,A829RL,26,State and local,2018,Fisher Quantity Index,"Percent change, annual rate",0,1.1,T10101
 T10101,A829RL,26,State and local,2019,Fisher Quantity Index,"Percent change, annual rate",0,3.9,T10101
 T10101,A829RL,26,State and local,2020,Fisher Quantity Index,"Percent change, annual rate",0,1.7,T10101
-T10101,A829RL,26,State and local,2021,Fisher Quantity Index,"Percent change, annual rate",0,-1.6,T10101
-T10101,A829RL,26,State and local,2022,Fisher Quantity Index,"Percent change, annual rate",0,0.2,T10101
-T10101,A829RL,26,State and local,2023,Fisher Quantity Index,"Percent change, annual rate",0,4.4,T10101
+T10101,A829RL,26,State and local,2021,Fisher Quantity Index,"Percent change, annual rate",0,-1.3,T10101
+T10101,A829RL,26,State and local,2022,Fisher Quantity Index,"Percent change, annual rate",0,0.0,T10101
+T10101,A829RL,26,State and local,2023,Fisher Quantity Index,"Percent change, annual rate",0,3.6,T10101
+T10101,A829RL,26,State and local,2024,Fisher Quantity Index,"Percent change, annual rate",0,3.8,T10101
 T10101,A191RP,27,"Gross domestic product, current dollars",1930,Current Dollars,"Percent change, annual rate",0,-11.9,T10101
 T10101,A191RP,27,"Gross domestic product, current dollars",1931,Current Dollars,"Percent change, annual rate",0,-16.0,T10101
 T10101,A191RP,27,"Gross domestic product, current dollars",1932,Current Dollars,"Percent change, annual rate",0,-23.1,T10101
@@ -2345,7 +2369,8 @@ T10101,A191RP,27,"Gross domestic product, current dollars",2016,Current Dollars,
 T10101,A191RP,27,"Gross domestic product, current dollars",2017,Current Dollars,"Percent change, annual rate",0,4.3,T10101
 T10101,A191RP,27,"Gross domestic product, current dollars",2018,Current Dollars,"Percent change, annual rate",0,5.3,T10101
 T10101,A191RP,27,"Gross domestic product, current dollars",2019,Current Dollars,"Percent change, annual rate",0,4.3,T10101
-T10101,A191RP,27,"Gross domestic product, current dollars",2020,Current Dollars,"Percent change, annual rate",0,-0.9,T10101
-T10101,A191RP,27,"Gross domestic product, current dollars",2021,Current Dollars,"Percent change, annual rate",0,10.9,T10101
+T10101,A191RP,27,"Gross domestic product, current dollars",2020,Current Dollars,"Percent change, annual rate",0,-0.8,T10101
+T10101,A191RP,27,"Gross domestic product, current dollars",2021,Current Dollars,"Percent change, annual rate",0,11.0,T10101
 T10101,A191RP,27,"Gross domestic product, current dollars",2022,Current Dollars,"Percent change, annual rate",0,9.8,T10101
-T10101,A191RP,27,"Gross domestic product, current dollars",2023,Current Dollars,"Percent change, annual rate",0,6.6,T10101
+T10101,A191RP,27,"Gross domestic product, current dollars",2023,Current Dollars,"Percent change, annual rate",0,6.7,T10101
+T10101,A191RP,27,"Gross domestic product, current dollars",2024,Current Dollars,"Percent change, annual rate",0,5.3,T10101
