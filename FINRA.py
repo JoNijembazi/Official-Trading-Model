@@ -19,8 +19,8 @@ import plotly.graph_objects as go
 def get_token(api_key, api_secret):
 
     bearer_token = requests.post(
-        auth=(api_key, api_secret),
         "https://ews.fip.finra.org/fip/rest/ews/oauth2/access_token?grant_type=client_credentials",
+        auth=(api_key, api_secret),
     )
     return bearer_token.json()["access_token"]
 

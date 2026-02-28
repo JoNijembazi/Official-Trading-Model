@@ -11,6 +11,8 @@ from plotly.subplots import make_subplots
 #Set up Alpha vantage API for Statements
 api_key = "UDY0JA4KTIKXBA93"
 
+ticker = "TFII"
+
 def fetch_statements(symbol, api_key, f1="INCOME_STATEMENT",f2="BALANCE_SHEET",f3="CASH_FLOW"):
     base_url = "https://www.alphavantage.co/query"
     params = {
@@ -58,7 +60,7 @@ def fetch_statements(symbol, api_key, f1="INCOME_STATEMENT",f2="BALANCE_SHEET",f
         raise ValueError("Unexpected API response format. Check your parameters and API key.")
     return inc_st, bal_st, cf_st
 
-income, balance, cash_flow = fetch_statements("AAPL", api_key)
+income, balance, cash_flow = fetch_statements(ticker, api_key)
 
 # Calulate TTM EPS
 Q_dirty_EPS = income['netIncome'] / balance['commonStockSharesOutstanding']
@@ -71,25 +73,22 @@ def ticker_info_lookup(ticker):
     try:
         stock = yf.Ticker(ticker)
         info = stock.info
-        history = stock.history(period="5y", interval="1d")
+        history = stock.history(period="max", interval="1d")
         price_t = stock.analyst_price_targets
         return info, history, price_t
     except Exception as e:
         print(f"Error fetching data for {ticker}: {e}. Please wait a moment and try again.")
         return None
 
-
 # Example usage
-ticker = "AAPL"
+
 info, history, targets = ticker_info_lookup(ticker)
 targets.pop('current',None)
 profile = pd.DataFrame.from_dict(info, orient='index', columns=[ticker])
 
-
 history['TTM EPS'] = np.nan
 history.index = pd.to_datetime(history.index,utc=True)
 history.sort_index(inplace=True, ascending=False)
-
 
 for date, eps in Ttm_EPS.items():
     if date in history.index:
@@ -103,51 +102,128 @@ for date, eps in Ttm_EPS.items():
             print(f"Mapping EPS for {date} to closest earlier date {closest_date} in history.")
             history.at[closest_date, 'TTM EPS'] = eps
 
-
 history['TTM EPS'] = history['TTM EPS'].bfill()
 history['TTM P/E'] = history['Close'] / history['TTM EPS']
 
 # Multi-panel plot with subplots
-fig = make_subplots(rows=2,
-                    cols=2, 
-                    specs=[[{"colspan": 2,"secondary_y":True}, None],
-                           [{"colspan": 2},None]]
-                           )
+def interface_plots():
+    fig = make_subplots(rows=3,
+                        cols=2, 
+                        specs=[[{"colspan": 2,"secondary_y":True}, None],
+                            [{"colspan": 1, 'type': 'indicator'},{"colspan": 1, 'type': 'indicator'}],
+                            [{"colspan": 2, 'type': 'table'},None]
+                            ]
+                            )
+
+    fig.add_trace(go.Bar(x=history.index,                      
+                        y=history['Volume'],
+                        name='Volume'),
+                        secondary_y=True,
+                        row=1,
+                        col='all')
+
+    fig.add_trace(go.Candlestick(x=history.index,
+                    open=history['Open'],
+                    high=history['High'],
+                    low=history['Low'],
+                    close=history['Close'],name='OCHL',zorder=1),
+                    secondary_y=False,
+                    row=1,
+                    col='all',)
 
 
-fig.add_trace(go.Candlestick(x=history.index,
-                open=history['Open'],
-                high=history['High'],
-                low=history['Low'],
-                close=history['Close']),
-                secondary_y=False,
-                name='Price',
-                row=1,
-                col='all',)
+    fig.add_trace(go.Indicator(
+        mode = "number+delta+gauge",
+        value = targets['mean'],
+        number = {'prefix':'$'},
+        delta={'reference': history['Close'].iloc[0], 
+            'relative': True,
+            "valueformat": ".00%"},
+        title = {"text": "Street Consensus"},
+        domain={'x': [0.5, 0.5], 'y': [0.5, 0.5]}),
+        row=2,
+        col=1)
 
-fig.add_trace(go.Bar(x=history.index, 
-                     y=history['Volume'],
-                     name='Volume',),
-                     secondary_y=True,
-                     row=1,
-                     col='all')
-
-for y,x in targets.items():
-    if x >= history['Close'][1]:
-        fig.add_hline(y=x, line_dash="dot", line_color="green",annotation_text=y, annotation=dict(font_size=9, font_family="Arial"),annotation_position="top left",line_width=1)
-    if x < history['Close'][1]:
-        fig.add_hline(y=x, line_dash="dot", line_color="red", annotation_text=y, annotation=dict(font_size=9, font_family="Arial"),annotation_position="top left",line_width=1)
-
-fig.add_trace(go.Scatter(x=history.index, 
-                         y=history['TTM P/E'], 
-                         name='TTM P/E', 
-                         line=dict(color='orange')),
-                         row=2,col='all')
-
-fig.update_layout(title_text=f'{ticker} Price History & P/E',
+    fig.add_trace(go.Indicator(
+        mode = "delta",
+        value = history['Close'].iloc[0],
+        delta={'reference': history.loc[history[(history.index.year == 2025)].index.min(),'Close'],
+            'relative': True,
+            "valueformat": ".00%"},
+        title = {"text": "YTD Performance"},
+        domain={'x': [0.5, 0.5], 'y': [0.5, 0.5]}),
+        row=2,
+        col=2) 
+    
+    fig.add_trace(go.Table(
+        header=dict(values=['Metric', 'Value'],
+                    fill_color='rgb(0,0,0)',
+                    align='center',
+                    font=dict(color='red', size=12)
+                    ),
+        cells=dict(values=[profile.index, profile[ticker]],
+                fill_color='rgb(0,0,0)',
+                align='left',
+                font=dict(color='red', size=8)
+                )),
+                row = 3, 
+                col=1,
+        )
+    
+    fig.update_layout(title_text=f'{profile.loc['longName',ticker]} ({ticker})',
                   hovermode='x unified',
-                  xaxis=dict(rangeslider=dict(visible=False)))               
+                  xaxis=dict(rangeslider=dict(visible=False),
+                             rangeselector=dict(buttons=list([
+                                 dict(count=1, label="1m", step="month", stepmode="backward"),
+                                 dict(count=3, label="3m", step="month", stepmode="backward"),
+                                 dict(count=6, label="6m", step="month", stepmode="backward"),
+                                 dict(count=1, label="YTD", step="year", stepmode="todate"),
+                                 dict(count=1, label="1y", step="year", stepmode="backward"),
+                                 dict(count=3, label="3y", step="year", stepmode="backward"),
+                                 dict(count=5,label="5y", step="year", stepmode="backward"),
+                                 dict(step="all"),
+                                 ]),
+                                 activecolor='red',
+                                 font=dict(size=10, color='white'),
+                                 )                               
+                                 ),
+                  yaxis = dict(title='Price', side='left',fixedrange=False,autorange=True),
+                  legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+                  height=800,
+                  width=1000,
+                  template='plotly_dark'
+                  )        
+    fig.show()
 
-fig.show()
 
+    # fig.add_trace(go.Scatter(x=history.index, 
+    #                         y=history['TTM P/E'], 
+    #                         name='TTM P/E', 
+    #                         line=dict(color='orange')),
+    #                         row=2,col='all',
+    #                         )
 
+fig3 = go.Figure(data=go.Table(columnwidth=[250*len(balance.columns) for col in balance.columns],
+    header=dict(values=['Item'] + balance.index.tolist(),
+                align='center',
+                fill_color='goldenrod',
+                font=dict(color='white', size=12)
+                ),
+    cells=dict(values=[balance.columns.tolist()] + [balance[col].tolist() for col in balance.columns],
+               align='left',
+               fill_color='black',
+               font=dict(color='orange', size=8),
+               format=[None] + [".0f"] * len(balance.index)),),
+    layout=go.Layout(title_text=f'{ticker} Balance Sheet'),
+)
+
+fig3.update_layout(
+    height=800,
+    width=1400,
+    template='plotly_dark',
+    margin=dict(l=300)
+)
+
+fig3.update_layout(height=800, width=1000, template='plotly_dark')
+
+interface_plots()

@@ -1,6 +1,33 @@
 import requests
 import pandas as pd
 from datetime import datetime
+import concurrent.futures
+
+
+api_key = "48D44F07-81A8-4F31-BD3C-F596E84B2F6D"
+
+
+def get_bea_tables(dataset='NIPA', key=api_key):
+    url = "https://apps.bea.gov/api/data/"
+    params = {
+        'UserID': key,
+        'Method': 'GetParameterValues',
+        'datasetname': dataset,
+        'ParameterName': 'TableName',
+        'ResultFormat': 'JSON'
+    }
+    
+    response = requests.get(url, params=params)
+    data = response.json()
+    
+    # Extract the table list from the nested JSON
+    print(data)
+    tables = data['BEAAPI']['Results']['ParamValue']
+    return pd.DataFrame(tables)
+
+
+bea_tables = get_bea_tables()
+
 
 def fetch_bea_data(api_key, dataset_name, table_name, frequency, year):
     """
@@ -41,25 +68,28 @@ def fetch_bea_data(api_key, dataset_name, table_name, frequency, year):
     else:
         raise ValueError("Unexpected API response format. Check your parameters and API key.")
 
-# Replace with your API key
-api_key = "48D44F07-81A8-4F31-BD3C-F596E84B2F6D"
 
-# Example: Fetch GDP data
-dataset_name = "NIPA"
-table_name = "T10101"  # GDP data
-frequency = "Q"  # Annual
-year = "ALL"  # All available years
 
-sets = {"dataset_name": dataset_name, "table_name": table_name, "frequency": frequency, "year": year}
+all_NIPA = {}
 
-try:
-    df = fetch_bea_data(api_key, sets["dataset_name"], sets["table_name"], sets["frequency"], sets["year"])
-    print(df.head())
-    # Save to CSV
-    df.to_csv("bea_data.csv", index=False)
-except Exception as e:
-    print(f"Error fetching data: {e}")
+def fetch_and_store(i, bea_tables, api_key):
+    try:
+        dataset_name = "NIPA"
+        table_name = bea_tables.loc[i, 'TableName']
+        frequency = "Q"
+        year = "ALL"
+        df = fetch_bea_data(api_key, dataset_name, table_name, frequency, year)
+        return (f'{table_name}', df)
+    except Exception as e:
+        print(f"Error fetching data for {bea_tables.loc[i, 'TableName']}: {e}")
+        return None
 
+with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    futures = [executor.submit(fetch_and_store, i, bea_tables, api_key) for i in bea_tables.index]
+    for future in concurrent.futures.as_completed(futures):
+        result = future.result()
+        if result:
+            all_NIPA.update({result[0]: result[1]})
 
 def fetch_bls_data(api_key, series_ids, start_year, end_year):
     """
@@ -90,7 +120,7 @@ def fetch_bls_data(api_key, series_ids, start_year, end_year):
     
     # Parse the JSON response
     data = response.json()
-    
+
     # Validate the response structure before iterating
     if "Results" in data:
         results = data["Results"]
@@ -111,11 +141,57 @@ def fetch_bls_data(api_key, series_ids, start_year, end_year):
         # Provide the raw response to make debugging easier
         raise ValueError(f"Unexpected BLS API response format: {data}")
 
+
+
 # Replace with your API key
 api_key = "14f9e85cd1d34b128fd2da56d209fc67"
 
-# Example: Fetch data for the unemployment rate (series ID "LNS14000000")
-series_ids = ["CUUR0000SA0L1E", "LNS14000000", "WPS141101"]  # CPI & Unemployment rate
+MEASURE_CODE = '1100'
+
+# Mapping of major NAICS sectors to their code ranges
+# BLS provides productivity data for these major groups
+sectors = {
+    'Mining': ['21'],
+    'Utilities': ['22'],
+    'Manufacturing': ['31', '32', '33'],
+    'Wholesale Trade': ['42'],
+    'Retail Trade': ['44', '45'],
+    'Transportation': ['48', '49'],
+    'Information': ['51'],
+    'Finance': ['52'],
+    'Services': ['54', '56', '62', '71', '72']
+}
+
+def generate_ip_series_id(naics_code):
+    """
+    Constructs a BLS Series ID for Industry Productivity.
+    Format: IP + U (Unadjusted) + 6-digit NAICS (padded with hyphens) + Measure Code
+    """
+    # BLS uses a 6-digit slot for NAICS. If shorter, it pads with hyphens.
+    padded_naics = naics_code.ljust(6, '-')
+    return f"IPU{padded_naics}{MEASURE_CODE}"
+
+# Example: Generating IDs for top-level sectors
+all_ids = []
+for sector_name, codes in sectors.items():
+    for code in codes:
+        series_id = generate_ip_series_id(code)
+        all_ids.append({'Sector': sector_name, 'NAICS': code, 'SeriesID': series_id})
+
+labor_productivity_data = {}
+for item in all_ids:
+    start_year = str(datetime.now().year - 19)
+    end_year = str(datetime.now().year)
+    try:
+        df = fetch_bls_data(api_key, [item['SeriesID']], start_year, end_year)
+        labor_productivity_data.update({item['Sector']: df})
+        # Save to CSV
+    except Exception as e:
+        print(f"Error fetching data: {e}")    
+
+
+# CPI, Unemployment rate, Wage growth, Labor force participation rate, 
+series_ids = ["CUUR0000SA0L1E", "LNS14000000", "WPSFD49116SA","LNS11300000","MPU4910012"]  
 start_year = str(datetime.now().year - 19)
 end_year = str(datetime.now().year)
 try:
