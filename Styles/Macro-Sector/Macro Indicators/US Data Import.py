@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from datetime import datetime
+
 def fetch_bea_data(api_key, dataset_name, table_name, frequency, year):
     """
     Fetch data from the BEA API.
@@ -46,11 +47,13 @@ api_key = "48D44F07-81A8-4F31-BD3C-F596E84B2F6D"
 # Example: Fetch GDP data
 dataset_name = "NIPA"
 table_name = "T10101"  # GDP data
-frequency = "A"  # Annual
+frequency = "Q"  # Annual
 year = "ALL"  # All available years
 
+sets = {"dataset_name": dataset_name, "table_name": table_name, "frequency": frequency, "year": year}
+
 try:
-    df = fetch_bea_data(api_key, dataset_name, table_name, frequency, year)
+    df = fetch_bea_data(api_key, sets["dataset_name"], sets["table_name"], sets["frequency"], sets["year"])
     print(df.head())
     # Save to CSV
     df.to_csv("bea_data.csv", index=False)
@@ -88,22 +91,31 @@ def fetch_bls_data(api_key, series_ids, start_year, end_year):
     # Parse the JSON response
     data = response.json()
     
+    # Validate the response structure before iterating
     if "Results" in data:
+        results = data["Results"]
+        # `series` can be missing if the API returned an error or empty results
+        if not results or "series" not in results:
+            status = data.get("status")
+            message = data.get("message") or data.get("Errors") or results
+            raise ValueError(f"BLS API returned no 'series' data. status={status}, message={message}")
+
         all_data = []
-        for series in data["Results"]["series"]:
-            series_id = series["seriesID"]
-            for item in series["data"]:
+        for series_item in results["series"]:
+            series_id = series_item.get("seriesID")
+            for item in series_item.get("data", []):
                 item["seriesID"] = series_id
                 all_data.append(item)
         return pd.DataFrame(all_data)
     else:
-        raise ValueError("Unexpected API response format. Check your parameters and API key.")
+        # Provide the raw response to make debugging easier
+        raise ValueError(f"Unexpected BLS API response format: {data}")
 
 # Replace with your API key
-api_key = "80a61ff034c741c9863afb334ed31fbc"
+api_key = "14f9e85cd1d34b128fd2da56d209fc67"
 
 # Example: Fetch data for the unemployment rate (series ID "LNS14000000")
-series_ids = ["CUUR0000SA0L1E","LNS14000000"]  # CPI & Unemployment rate
+series_ids = ["CUUR0000SA0L1E", "LNS14000000", "WPS141101"]  # CPI & Unemployment rate
 start_year = str(datetime.now().year - 19)
 end_year = str(datetime.now().year)
 try:
