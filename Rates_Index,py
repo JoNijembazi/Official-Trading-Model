@@ -1,0 +1,59 @@
+import sys
+import os
+import pandas as pd
+import numpy as np
+import io
+import plotly.express as px
+import plotly.graph_objects as go
+import scipy.stats as stats
+import yfinance as yf
+from datetime import datetime
+import ftplib as FTP
+import tickerlookup.Ticker_list as tl  
+import concurrent.futures
+import time
+from dash import Dash, html, dcc, callback, Output, Input
+import scipy.stats as stats
+import matplotlib.pyplot as plt
+import fredapi as fa
+
+def fetch_and_store(ticker):
+    price_history = yf.Ticker(ticker).history(period="max")  # Get the ticker symbol from the index
+    return price_history
+
+fred = fa.Fred('eaa358a70c1b9ce981ac8b39975d8eb5')
+
+SOFR_data = pd.DataFrame(fred.get_series('SOFR'))
+SOFR_data.columns = ['SOFR']
+SOFR_data.index = SOFR_data.index.tz_localize('UTC') 
+
+spy = fetch_and_store('SPY')
+spy.index = spy.index.tz_convert('UTC')  # Remove timezone information for consistency with SOFR_data
+spy['logchange'] = np.log(spy['Close'] / spy['Close'].shift(1))
+
+#%%
+combined = pd.concat([spy['Close'], SOFR_data['SOFR']], join='outer', axis=1).dropna(how='all')
+combined.columns = ['Price', 'Rate']
+
+# 2. Calculate Log Returns on the aligned data
+combined['price_log_ret'] = np.log(combined['Price'] / combined['Price'].shift(1))
+combined['rate_log_ret'] = np.log(combined['Rate'] / combined['Rate'].shift(1))
+
+# Drop the first row (which becomes NaN after shift)
+combined.dropna(how='all')
+
+# 3. Calculate Stats
+correlation = combined['price_log_ret'].corr(combined['rate_log_ret'])
+covariance = combined['price_log_ret'].cov(combined['rate_log_ret'])
+
+print(f"Correlation between SPY log returns and SOFR log returns: {correlation}")
+print(f"Standard deviation of SPY log returns: {combined['price_log_ret'].std()}")
+print(f"Standard deviation of SOFR log returns: {combined['rate_log_ret'].std()}")
+print(f"Variance of SPY log returns: {combined['price_log_ret'].var()}")
+print(f"Variance of SOFR log returns: {combined['rate_log_ret'].var()}")
+print(f"covariance of SPY log returns and SOFR log returns: {combined['price_log_ret'].cov(combined['rate_log_ret'])}")
+# %%
+
+rates_date = fa.Fred('eaa358a70c1b9ce981ac8b39975d8eb5').get_series('DGS10')
+
+# %%

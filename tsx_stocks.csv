@@ -1,0 +1,837 @@
+"symbol","name","stockPrice","peRatio","marketCapitalization","divYield","revenueGrowth3yr","incomeGrowth3yr"
+"RY","Royal Bank of Canada",228.07,16.23,318524806209,2.876309904853773,9.94,9.07
+"TD","Toronto-Dominion Bank (The)",132.88,11.22,222079420640,3.25105358217941,29.26,11.81
+"SHOP","Shopify Inc. Class A Subordinate Voting Shares",164.67,127.25,214748019792,,44.06,
+"AEM","Agnico Eagle Mines Limited",342.63,27.38,171667773561,0.7184791174152876,27.53,-2.1
+"ENB","Enbridge Inc.",72.47,27.44,158129540000,5.353939561197737,7.02,15.41
+"BMO","Bank of Montreal",196.31,16.06,138633288468,3.40278131526667,19.76,30.95
+"BN","Brookfield Corporation Class A Limited Voting Shares",59.82,88.8,134316062750,0.6406813774657305,-6.32,
+"BNS","Bank of Nova Scotia (The)",103.48,25.56,127569329405,4.252029377657518,1.82,7.89
+"CM","Canadian Imperial Bank Of Commerce",137.79,15.85,127409039190,3.1061760650264896,18.31,8.08
+"CNQ","Canadian Natural Resources Ltd.",59.67,18.3,124298994690,3.9383274677392324,-2.95,
+"ABX","Barrick Mining Corporation",69.21,16.99,115951692938,3.3197659297789337,15.47,-50.2
+"CP","Canadian Pacific Kansas City Limited",119.44,25.25,107595284261,0.7635632953784327,21.44,3.86
+"BAM","Brookfield Asset Management Ltd. Class A Limited Voting Shares",63.69,30.6,102588026651,4.284607392055268,,
+"WPM","Wheaton Precious Metals Corp.",222.27,71.17,100915411483,0.41701120259144286,18.24,71.76
+"CNR","Canadian National Railway Company",153.07,20.46,93586998000,2.3910629123930227,1.77,10.24
+"SU","Suncor Energy Inc.",77.05,18.01,91451488466,3.1148604802076574,-3.36,
+"TRP","TC Energy Corporation",87.65,26.86,87650000000,4.004563605248146,0.58,-49.25
+"MFC","Manulife Financial Corporation",48.57,15.48,81439409599,3.994235124562487,147.39,16.82
+"IMO","Imperial Oil Limited",159.55,20.78,77157217678,2.1811344406142275,-4.37,
+"ATD","Alimentation Couche-Tard Inc.",82.78,22.84,76634472733,1.0388982846098092,0.86,6.71
+"L","Loblaw Companies Limited",63.22,11.14,74292742827,0.8925972793419804,14.57,28.19
+"NA","National Bank of Canada",190.37,17.65,73722291182,2.6054525397909334,17.92,16.63
+"FNV","Franco-Nevada Corporation",381.24,57.31,73494340460,0.6250714510544539,5.34,66.51
+"CCO","Cameco Corporation",161.38,134.39,70286311990,0.14871731317387532,24.18,
+"WCN","Waste Connections, Inc.",234.73,39.32,60564891180,0.8167899288544285,25.05,25.46
+"K","Kinross Gold Corporation",50.42,18.39,60493916000,0.4345783419278064,26.03,
+"GWO","Great-West Lifeco Inc.",65.9,14.82,59727270563,4.0667678300455234,14.16,15.24
+"TRI","Thomson Reuters Corporation ,With New Deposit Receip",131.33,20.99,58421163818,2.708467143836138,3.92,12.39
+"CVE","Cenovus Energy Inc.",30.39,14.36,57236526000,2.6324448831852583,-11.53,
+"DOL","Dollarama Inc.",200.82,41.55,54981545872,0.21073598247186534,14.14,16.3
+"CSU","Constellation Software Inc.",2520.66,56.43,53416642010,0.22258138741440733,21.89,11.2
+"CSU.DB","Constellation Software Inc. Unsecured Subordinated Floating Rate Debentures, Series 1",117.01,56.43,53416642010,7.606187505341424,21.89,11.2
+"FFH","Fairfax Financial Holdings Limited Subordinate Voting Shares",2347.75,7.99,50074467164,0.8800085187945905,3.8,
+"NTR","Nutrien Ltd.",102.59,58.97,49585907332,2.9384764596939275,-10.88,137.5
+"SLF","Sun Life Financial Inc.",89.4,22.12,49516279546,4.116331096196868,55.1,13.38
+"IFC","Intact Financial Corporation",263.35,18.73,46760836036,2.2327700778431745,4.29,45.21
+"QSR","Restaurant Brands International Inc.",97.86,24.12,44709427310,3.623155528305743,13.19,17.46
+"POW","Power Corporation of Canada Subordinate Voting Shares",68.52,14.11,43651524076,3.5755983654407473,3.3,11.05
+"CLS","Celestica Inc.",378.78,49.65,43573571302,,18.85,
+"FTS","Fortis Inc.",78.47,22.42,39815678000,3.262393271313878,4.81,-8.44
+"PAAS","Pan American Silver Corp.",93.58,26.33,39479904720,1.0522440692455652,47.87,
+"TECK.B","Teck Resources Limited Class B Subordinate Voting Shares",80.11,28.74,39080410000,0.6241418050181001,-16.11,
+"TECK.A","Teck Resources Limited Class A Multiple Voting Shares",80.05,28.74,39080410000,0.6246096189881324,-16.11,
+"WN","George Weston Limited",100.12,11.44,38557218606,1.1903036356372354,-2.23,3.63
+"LUN","Lundin Mining Corporation",43.46,,37138031951,0.25310630464795214,10.05,
+"FFH.U","Fairfax Financial Holdings Limited Subordinate Voting Shares (quoted in US funds)",1667.5,7.99,36612437397,,3.8,
+"H","Hydro One Limited",58.62,26.6,35159209761,2.2729443875810302,4.83,0.82
+"PPL","Pembina Pipeline Corporation",59.95,21.18,34844798450,4.737281067556297,-11.17,
+"FM","First Quantum Minerals Ltd.",40.84,,34068973040,,-11.77,
+"BCE","BCE Inc.",35.85,5.36,33431050539,4.881450488145049,0.75,-2.23
+"QSP.UN","Restaurant Brands International Limited Partnership Exchangeable Units",94.01,18.17,31550116152,3.7305359004361236,13.96,17.58
+"WSP","WSP Global Inc.",231.07,32.34,31152080081,0.6491539360366988,24.08,20.97
+"LUG","Lundin Gold Inc.",128.57,26.21,31077338435,1.2783075367504084,29.78,
+"AGI","Alamos Gold Inc. Class A",73.93,23.88,31041787322,0.29538211821993776,30.4,
+"RCI.A","Rogers Communications Inc. Class A Shares",55.25,4.29,29847446610,3.6199095022624435,11.42,-5.03
+"RCI.B","Rogers Communications Inc. Class B Non-voting Shares",54.44,4.29,29847446610,3.673769287288758,11.42,-5.03
+"T","TELUS Corporation Common",18.7,25.83,29190700000,8.949732620320855,3.48,-2.57
+"ECN.DB.C","ECN Capital Corp. 6.50% Convertible Senior Unsecured Debentures",102.01,113.06,28739629235,,-11.03,
+"BEP.UN","Brookfield Renewable Partners L.P. non-voting limited partnership units",43.37,,28537327375,4.9445146414572285,-7.83,
+"ECN.DB.B","ECN Capital Corp. 6.25% Senior Unsecured Debentures",100.25,113.06,28243778363,,-11.03,
+"ECN.DB.A","ECN Capital Corp. 6.00% Senior Unsecured Debentures",100.02,113.06,28178979669,,-11.03,
+"BBD.A","Bombardier Inc. Class A Multiple Voting Shares",277.93,21.89,27513095307,,21.27,
+"BBD.B","Bombardier Inc. Class B Subordinate Voting Shares",281.89,21.89,27513095307,,21.27,
+"NWH.DB.I","Northwest Healthcare Properties Real Estate Investment Trust 7.75% Convertible Unsecured Subordinated Debentures",104.25,46.31,26061735848,,8.5,
+"RBA","RB Global, Inc.",137.41,51.14,25515937995,1.2308946947092643,52.68,23.73
+"NWH.DB.H","Northwest Healthcare Properties Real Estate Investment Trust 6.25% Convertible Unsecured Subordinated Debentures",101,46.31,25249259670,,8.5,
+"TOU","Tourmaline Oil Corp.",64.04,17.98,24784166125,3.1230480949406623,-7.87,138.71
+"BIP.UN","Brookfield Infrastructure Partners L.P. Limited Partnership Units",53.21,60.02,24542251775,4.655981394474723,16.76,11.35
+"MG","Magna International Inc.",86.01,17.63,24238844245,3.139316358562958,3.79,-3.04
+"EDV","Endeavour Mining plc",98.15,41,23690465991,2.306571268466633,9.8,
+"IVN","Ivanhoe Mines Ltd. Class A",15.6,58.34,22175528996,,,
+"PHYS","Sprott Physical Gold Trust transferable, redeemable units",54.73,24.9,22078843130,,-19.35,
+"GFL","GFL Environmental Inc. subordinate voting shares",60.28,5.93,21647991405,0.14047722627737227,1.02,
+"AG","First Majestic Silver Corporation",43.64,,21520511292,0.10383368469294225,26.15,
+"EMA","Emera Incorporated",70.97,18.95,21503910000,4.128505002113569,6.49,-6.42
+"GIB.A","CGI Inc. Class A Subordinate Voting Shares",99.76,13.09,21424247505,0.681635926222935,17.55,11.52
+"PSLV","Sprott Physical Silver Trust transferable, redeemable units",42.12,,20943544223,,-49.23,
+"MRU","Metro Inc.",97.19,28.69,20716242880,1.6771272764687726,4.48,6.37
+"EQX","Equinox Gold Corp.",25.6,85.86,20180017126,0.31988671875,24.04,
+"BEPC","Brookfield Renewable Corporation Class A Exchangeable Subordinate Voting Shares",58.21,,19836961900,3.6839649544751762,-100,
+"IMG","IAMGOLD Corporation",33.56,20.15,19760128000,,35.28,
+"DRT.DB.A","DIRTT Environmental Solutions Ltd. 6.25% convertible unsecured subordinated debentures",98.75,,18727335421,,-1.14,
+"BNT","Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares",60.65,6.58,18670038456,0.4329087246573784,18.14,
+"DIV.DB.A","Diversified Royalty Corp. 6.00% Convertible Unsecured Subordinated Debentures",108,24.71,18389433456,,16.86,
+"SAP","Saputo Inc.",43.54,,17644769610,1.8373909049150208,3.1,-13.79
+"OVV","Ovintiv Inc.",68.84,56.37,17434319270,2.388608367228356,-16.27,
+"TIH","Toromont Industries Ltd.",211.7,33.34,17243361726,1.0581010864430798,8.13,17.67
+"GIL","Gildan Activewear Inc.",92.97,22.88,17213581440,1.4652245240400128,0.58,
+"DIV.DB.B","Diversified Royalty Corp. 5.75% convertible unsecured subordinated debentures",100.59,24.71,17127713994,,16.86,
+"CEF","Sprott Physical Gold and Silver Trust transferable, redeemable units",77.06,1116.35,16563826608,,-73.3,
+"WCP","Whitecap Resources Inc.",13.62,11.76,16531956000,5.356828193832599,9.35,
+"CJ.DB.A","Cardinal Energy Ltd. 8.25% senior subordinated unsecured debentures",102.5,20.75,16459011608,,-8.78,
+"CJ.DB","Cardinal Energy Ltd. 7.75% Senior Unsecured Debentures",102.01,20.75,16380329503,,-8.78,
+"PHYS.U","Sprott Physical Gold Trust transferable, redeemable units",40.13,24.9,16143162527,,-19.35,
+"IGM","IGM Financial Inc.",67.86,15.48,15956456062,3.6545829649277923,4.83,7.51
+"ATRL","AtkinsRéalis Group Inc.",94.55,6.28,15671519257,0.08461131676361713,11.95,-37.15
+"HBM","Hudbay Minerals Inc.",38.65,22.69,15338063540,0.0517464424320828,15.12,
+"PSLV.U","Sprott Physical Silver Trust transferable, redeemable units",30.79,,15313077605,,-49.23,
+"CCL.A","CCL Industries Inc. Unlimited Class A Voting Shares",86.29,18.8,14945428000,1.6572024568316144,6.29,9.5
+"CCL.B","CCL Industries Inc. Unlimited Class B Non-Voting Shares",94.88,18.8,14945428000,1.5177065767284992,6.29,9.5
+"NGD","New Gold Inc.",18.32,38.23,14503944000,,24.47,
+"CGG","China Gold International Resources Corp. Ltd.",36.5,0.88,14469101985,0.19481164383561644,1.58,
+"ARX","ARC Resources Ltd.",25.3,6.11,14436180000,3.3201581027667983,-12.88,
+"STN","Stantec Inc.",126.3,28.41,14406661469,0.7759303246239113,14.3,10.27
+"IAG","iA Financial Corporation Inc.",155.13,13.58,14230869321,2.552697737381551,-21.8,14.56
+"ATZ","Aritzia Inc. Subordinate Voting Shares",120.78,0,13940670247,,19.43,29.67
+"TPX.A","Molson Coors Canada Inc. Class A Exchangeable Shares",74,,13906713810,3.5488864864864866,1.35,
+"ALA","AltaGas Ltd.",46.36,18.02,13884178563,2.8817946505608285,-1.68,-9.08
+"RSI.DB.G","Rogers Sugar Inc. Eighth Series 6.00% convertible unsecured subordinated debentures",108.3,11.91,13882101503,,7.49,
+"TFII","TFI International Inc.",162.97,40.73,13388153685,1.5867698349389459,-3.44,49.24
+"RSI.DB.H","Rogers Sugar Inc. Ninth Series 5.50% convertible unsecured subordinated debentures",103.25,11.91,13234782827,,7.49,
+"DPM","DPM Metals Inc.",59.06,21.64,13109052923,0.3697527937690484,29.91,
+"OGC","OceanaGold Corporation",58.01,15.44,13059315676,0.8503626960868815,-0.72,
+"CAE","CAE Inc. Unlimited",40.45,33.95,13017022888,,8.08,
+"CU","Canadian Utilities Limited Class A Non-Voting Shares",47.57,23.65,12945744563,3.887323943661972,-2.31,-11.57
+"EFN","Element Fleet Management Corp.",32.49,23.83,12927739420,1.8467220683287164,-2.1,92.05
+"X","TMX Group Limited",46.01,31.09,12800241588,2.086502934144751,46.77,27.84
+"QBR.B","Quebecor Inc. Class B Subordinate Voting Shares",56.41,15.33,12787811248,2.8363765289842227,-1.84,2.44
+"QBR.A","Quebecor Inc. Class A Multiple Voting Shares",57.7,15.33,12787811248,2.7729636048526864,-1.84,2.44
+"GMIN","G Mining Ventures Corp.",55.86,34.85,12720647781,,,
+"ELD","Eldorado Gold Corporation",63.35,24.62,12579442442,0.6527758484609313,27.72,
+"TPX.B","Molson Coors Canada Inc. Class B Exchangeable Shares",66.72,,12538593857,3.936115107913669,1.35,
+"OR","OR Royalties Inc.",64.63,56.2,12153671500,0.4664371035123008,5.1,
+"CEF.U","Sprott Physical Gold and Silver Trust Transferable, redeemable units",56.31,1116.35,12110804150,,-73.3,
+"FTT","Finning International Inc.",91.96,17.99,12030434525,1.3157894736842106,16.92,28.47
+"KEY","Keyera Corp.",52.06,38.97,11936463505,4.149058778332693,0.34,3.41
+"NFI.DB","NFI Group Inc. 5.0% unsecured convertible debentures",100.05,,11913541494,,18.37,
+"QTRH.DB","Quarterhill Inc. 6.0% convertible unsecured subordinated debentures",100,,11708787000,,-20.16,
+"TFPM","Triple Flag Precious Metals Corp.",56.4,33.11,11650582742,0.5587960141843972,36.78,
+"CTC.A","Canadian Tire Corporation, Limited Class A Non-Voting Shares",191.33,23.05,11648537340,3.7631317618773847,9.37,19.27
+"CTC","Canadian Tire Corporation, Limited",220,23.05,11648537340,3.272727272727273,9.37,19.27
+"CHP.UN","Choice Properties Real Estate Investment Trust Units",15.86,,11479639240,4.85500630517024,3.75,-30.62
+"NXE","NexGen Energy Ltd.",17.4,,11389362757,,,
+"BTO","B2Gold Corp.",8.38,,11234411153,1.3029594272076372,20.89,-12.85
+"EMP.A","Empire Company Limited Non-Voting Class A Shares",48.38,16.92,11134468463,1.818933443571724,0.95,8.31
+"GLXY","Galaxy Digital Inc. - Class A",28.06,,10960525860,,,
+"CS","Capstone Copper Corp.",14.11,25.32,10771021001,,22.07,
+"SGY.DB.B","Surge Energy Inc. 8.50% Series 3 Convertible Unsecured Subordinated Debentures",106.99,20.62,10590304258,,-25.68,
+"OLA","Orla Mining Ltd",29.5,138.53,10026938490,0.2813816949152542,76.55,
+"CPX","Capital Power Corporation",64.03,22.01,9963452180,4.316726534436983,11.07,44.2
+"FSV","FirstService Corporation",214.94,50.65,9883319709,0.7762643063180422,15.22,
+"BBU.UN","Brookfield Business Partners L.P. Limited Partnership Units",46.55,,9788179289,0.7542320085929108,-20.96,
+"BTB.DB.I","BTB Real Estate Investment Trust Series I 7.25% convertible, unsecured, subordinated debentures",109,10.46,9697287896,,3.79,
+"GRGD","Groupe Dynamite Inc. Subordinate voting shares",88.77,56.95,9615952106,,,
+"SOBO","South Bow Corporation",43.86,25.85,9133867456,6.392248062015504,,
+"DSV","Discovery Silver Corp.",11.27,,9132583732,,,
+"BIPC","Brookfield Infrastructure Corporation Class A Exchangeable Subordinate Voting Shares",68.02,,8986266674,3.6422341958247575,-8.19,
+"SSRM","SSR Mining Inc.",43.87,17.09,8905659968,,12.39,21.44
+"BLCO","Bausch + Lomb Corporation",24.83,,8868133448,,10.57,
+"TF.DB.F","Timbercreek Financial Corp. 7.50% Convertible Unsecured Subordinated Debentures due June 30, 2029",103,16.52,8523581248,,18.01,
+"OTEX","Open Text Corporation",33.79,14.09,8467867835,4.4313657886948805,24,11.02
+"DFY","Definity Financial Corporation",68.28,20.42,8302848000,1.259519625073228,-12.8,
+"TF.DB.D","Timbercreek Financial Corp. 5.25% Convertible Unsecured Subordinated Debentures due July 31, 2028",100,16.52,8275321600,,18.01,
+"CIGI","Colliers International Group Inc. Subordinate Voting Shares",161.79,49.12,8268087200,0.2587353977378083,5.97,
+"PRU","Perseus Mining Limited",5.95,15.99,8174726735,,41.92,90.18
+"TF.DB.E","Timbercreek Financial Corp. 5.00% Convertible Unsecured Subordinated Debentures due December 31, 2",98.6,16.52,8159467098,,18.01,
+"CGX.DB.B","Cineplex Inc. 5.75% Convertible Unsecured Subordinated Debentures",128,,8057355520,,11.84,
+"KNT","K92 Mining Inc.",32.88,22.12,8002107594,,44.08,-3.18
+"TXG","Torex Gold Resources Inc.",83.11,11.16,7929959682,0.7219347852244014,14.55,97.79
+"DSG","Descartes Systems Group Inc. (The)",90.22,37.49,7757731171,,13.11,42.36
+"NG","NovaGold Resources Inc.",18.2,,7407300464,,-100,
+"DOO","BRP Inc. Subordinate Voting Shares",100.01,,7336168243,0.8599140085991401,4.7,46.28
+"AQN","Algonquin Power & Utilities Corp.",9.54,,7329067298,3.7734475890985326,-5.46,
+"ACO.X","ATCO Ltd. Class I Non-voting Shares",64.86,16.84,7290624168,3.204440333024977,1.63,-8.07
+"PSK","PrairieSky Royalty Ltd.",31.14,44.04,7246278000,3.4039820166987798,-0.99,68.62
+"WGX","Westgold Resources Limited",7.57,,7151785229,,,
+"WFG","West Fraser Timber Co. Ltd.",90.56,,7090831880,1.9189328621908128,-17.43,
+"CSH.UN","Chartwell Retirement Residences Units",22.22,101.05,7073234273,2.8082808280828084,2.28,
+"HOT.DB.V","American Hotel Income Properties REIT LP 6.00% Convertible Unsecured Subordinated Debentures",94,,7039152400,,-10.44,
+"EFR","Energy Fuels Inc.",29.13,,7037982780,,77.85,
+"PRV.DB","PRO Real Estate Investment Trust 8.00% convertible unsecured subordinated debentures",104.89,22.84,7036705293,,2.62,
+"ONEX","ONEX Corporation Subordinate Voting Shares",101.43,12.25,6964078313,0.39436064280784777,,
+"BYD","Boyd Group Services Inc.",238.09,234.31,6625573520,0.2620857658868495,10.29,-12.77
+"MRT.DB.A","Morguard Real Estate Investment Trust 5.25% convertible unsecured subordinated debentures",100.7,,6563424600,,-0.44,86.41
+"NGEX","NGEx Minerals Ltd.",31.52,,6542637510,,,
+"SCR","Strathcona Resources Ltd.",29.8,5.66,6384221118,4.026845637583893,92.29,
+"U.UN","Sprott Physical Uranium Trust Trust Units",27.52,2.53,6352617728,,,
+"SKE","Skeena Resources Limited",51.99,,6295642487,,,
+"ARIS","Aris Mining Corporation",30.9,115.25,6263430000,,-25.43,
+"MAU","Montage Gold Corp.",17,,6146633696,,,
+"PPTA","Perpetua Resources Corp.",50.28,,6127758451,,,
+"EIF","Exchange Income Corporation",108.68,37.07,6100197315,2.5395656974604344,16.75,15.7
+"AC","Air Canada Voting and Variable Voting Shares",20.63,,6076558661,,24.04,
+"ELF","E-L Financial Corporation Limited",17.32,0.16,5996149360,0.9237875288683602,,
+"CAR.UN","Canadian Apartment Properties Real Estate Investment Trust Trust Units",37.74,29.83,5807598879,4.106836248012718,0.63,-71.84
+"REI.UN","RioCan Real Estate Investment Trust Trust Units",19.73,86.13,5794701000,5.869234668018247,18.26,
+"CG","Centerra Gold Inc.",28.67,11.71,5783630121,0.9766306243460062,19.03,
+"PDN","Paladin Energy Ltd.",12.86,,5778363494,,,
+"NPI","Northland Power Inc.",21.86,,5716434682,3.293687099725526,-2.18,10.4
+"SII","Sprott Inc.",221.22,22.25,5707476000,0.9910604827773257,35.72,23.67
+"FVI","Fortuna Mining Corp.",18.64,15.48,5690046139,,11.59,
+"AII","Almonty Industries Inc.",25.17,,5658508173,,7.64,
+"LNR","Linamar Corporation",94.01,22.76,5622689873,1.2339112860334007,10.94,8.78
+"EDR","Endeavour Silver Corp.",18.98,,5583488931,,23.69,
+"SEA","Seabridge Gold Inc.",53.75,,5581520131,,,
+"TA","TransAlta Corporation",18.75,,5578125000,1.3866666666666667,-7.98,
+"GRT.UN","Granite Real Estate Investment Trust Units",91.97,43.47,5573439297,3.8595194085027726,23.31,-18.56
+"AAUC","Allied Gold Corporation",43.18,,5354320000,,,
+"MX","Methanex Corporation",68.82,16.67,5322505766,1.4598333333333333,-6.49,
+"MRG.DB.B","Morguard North American Residential Real Estate Investment Trust 6.00% Convertible Unsecured Subordinated Debentures",102.01,,5320500071,,38.79,
+"PEY","Peyto Exploration & Development Corp.",26.43,14,5316683803,4.994324631101022,-3.82,
+"SJ","Stella-Jones Inc.",93.61,15.51,5111648189,1.4528362354449311,5.87,17.9
+"DML","Denison Mines Corp.",5.68,,5096610273,,-34.49,
+"GEI","Gibson Energy Inc.",29.31,22.79,5041320000,6.141248720573183,-1.06,10.38
+"MDA","MDA Space Ltd.",39.55,44.52,4995160135,,37.42,
+"SRU.UN","SmartCentres Real Estate Investment Trust Variable Voting Units",27.77,19.99,4952112381,6.662009362621534,15.08,47.56
+"TVE","Tamarack Valley Energy Ltd.",10.19,,4934731680,1.5701668302257115,10.07,
+"ERO","Ero Copper Corp.",46.66,23.8,4847519252,,8.88,87.54
+"PBH.DB.J","Premium Brands Holdings Corporation 5.50% Convertible Unsecured Subordinated Debentures",108,72.19,4824299520,,7.94,
+"AD.DB.B","Alaris Equity Partners Income Trust 6.50% Convertible Unsecured Senior Debentures",106.06,5.99,4808634295,,-3.84,
+"TPZ","Topaz Energy Corp",31.16,73.68,4798640000,4.364569961489089,-0.64,266.7
+"AI.DB.F","Atrium Mortgage Investment Corporation 5.00% convertible unsecured subordinated debentures",100.75,11.52,4792154910,,3.08,
+"AI.DB.G","Atrium Mortgage Investment Corporation 5.10% convertible unsecured subordinated debentures due March 31, 2029",100.55,11.52,4782641947,,3.08,
+"PBH","Premium Brands Holdings Corporation",106.01,72.19,4735407334,3.2072445995660788,7.94,17.35
+"U.U","Sprott Physical Uranium Trust Trust Units",20.26,2.53,4676745464,,,
+"PBH.DB.K","Premium Brands Holdings Corporation 5.50% Convertible Unsecured Subordinated Debentures",104.5,72.19,4667956480,,7.94,
+"AD.DB.C","Alaris Equity Partners Income Trust 6.25% Convertible Unsecured Senior Debentures",102.38,5.99,4641787470,,-3.84,
+"AD.DB.A","Alaris Equity Partners Income Trust 6.25% Senior Unsecured Debentures",101.2,5.99,4588287673,,-3.84,
+"FCR.UN","First Capital Real Estate Investment Trust Trust Units",21.39,,4545375000,4.26367461430575,12.22,
+"PBH.DB.I","Premium Brands Holdings Corporation 5.40% Convertible Unsecured Subordinated Debentures",101.6,72.19,4538415104,,7.94,
+"ATH","Athabasca Oil Corporation",8.82,9.49,4517604000,,-1.98,
+"BBUC","Brookfield Business Corporation Class A Exchangeable Subordinate Voting Shares",46.92,,4501075623,0.7482843137254902,-8.18,
+"PBH.DB.H","Premium Brands Holdings Corporation 4.20% Convertible Unsecured Subordinated Debentures",100.2,72.19,4475877888,,7.94,
+"TKO","Taseko Mines Limited",12.15,,4429369373,,21.61,
+"ATS","ATS Corporation",43.55,,4270505509,,4.56,40.08
+"EQB","EQB Inc.",115.32,17.76,4219879620,2.046479361775928,12.57,12.87
+"AYA","Aya Gold & Silver Inc.",29.53,,4190319462,,59.16,
+"SVM","Silvercorp Metals Inc.",18.96,104.04,4176446403,0.18441455696202533,14.4,-13.62
+"SES","Secure Waste Infrastructure Corp.",18.92,43.13,4101988402,2.1141649048625792,-37.32,
+"CRT.UN","CT Real Estate Investment Trust Units",17.2,133.38,4095125571,5.513720930232558,0.89,13.01
+"WDO","Wesdome Gold Mines Ltd.",26.82,13.83,4048988580,,43.12,
+"BTE","Baytex Energy Corp.",5.24,18.25,4025981080,1.717557251908397,11.11,
+"AAUC.DB.U","Allied Gold Corporation 8.75% Senior Unsecured Convertible Debentures",198,,3914863540,,,
+"DIR.UN","Dream Industrial Real Estate Investment Trust Units",13.28,36.32,3884735639,5.270783132530121,23.04,25.82
+"POU","Paramount Resources Ltd. Class A",27,2.8,3871800000,2.2222222222222223,-16.77,
+"ORA","Aura Minerals Inc.",45.97,,3840081241,3.949519251685882,23.48,61.8
+"RGSI","Rockpoint Gas Storage Inc. Class A",28.36,,3771880000,4.212720733427362,,
+"FOOD.DB.A","Goodfood Market Corp. 5.75% convertible unsecured subordinated debentures",38,,3755925700,,-15.35,
+"FOM","Foran Mining Corporation",7.34,,3755215147,,,
+"FC.DB.M","Firm Capital Mortgage Investment Corporation 5.50% Convertible Unsecured Subordinate Debentures",101.81,11.99,3740238257,,9.53,
+"EFX","Enerflex Ltd.",30.61,17.7,3728352455,0.5553740607644561,13.09,
+"FC.DB.L","Firm Capital Mortgage Investment Corporation 5.00% Convertible Unsecured Subordinated Debentures",99.91,11.99,3670437131,,9.53,
+"IE","Ivanhoe Electric Inc. Shares of Common Stock",23.44,,3668586173,,,
+"FC.DB.K","Firm Capital Mortgage Investment Corporation 5.00% Unsecured Convertible Debentures",99.76,11.99,3664926516,,9.53,
+"USA","Americas Gold and Silver Corporation",13.39,,3663900384,,11.51,
+"KXS","Kinaxis Inc.",129.51,72.49,3634159906,,16.14,
+"CEU","CES Energy Solutions Corp.",16.83,20.86,3579000665,1.0101010101010102,12.13,
+"MFI","Maple Leaf Foods Inc.",28.03,17.25,3500920708,2.9967891544773457,1.13,
+"IPCO","International Petroleum Corporation",31.13,94.74,3491401556,,-8.94,
+"BEI.UN","Boardwalk Real Estate Investment Trust Trust Units",65.4,10.94,3463082382,2.7522935779816513,8.76,
+"SGD","Snowline Gold Corp.",19.23,,3327108449,,,
+"TVK","TerraVest Industries Inc.",147.07,0,3189315164,0.5439586591419052,35.39,23.47
+"CCA","Cogeco Communications Inc. Subordinate Voting Shares",72.36,9.44,3062841200,5.456053067993366,-7.71,2.33
+"CRR.UN","Crombie Real Estate Investment Trust Units",16.36,,3058888799,5.50122249388753,6.26,
+"BHC","Bausch Health Companies Inc.",8.09,13.91,3005410146,,8.11,
+"HWX","Headwater Exploration Inc.",12.56,16.51,2998861735,3.5031847133757963,7.15,
+"SXGC","Southern Cross Gold Consolidated Ltd.",11.47,,2970204078,,,
+"HR.UN","H&R Real Estate Investment Trust Units",10.43,,2895071433,5.752636625119846,9.68,
+"FRU","Freehold Royalties Ltd.",17.59,21.58,2884062275,6.139852188743604,-4.51,
+"BLX","Boralex Inc. Class A Shares",27.76,,2852488821,2.377521613832853,2.58,
+"RPR.DB","Ravelin Properties REIT 9.00% Convertible Unsecured Subordinated Debentures",33,,2832971493,,-1.88,
+"WPK","Winpak Ltd.",48.18,16.6,2826359250,0.41511000415110005,-1.6,6.6
+"ABRA","AbraSilver Resource Corp.",17.61,,2815478206,,,
+"CIA","Champion Iron Limited",5.22,14.28,2783570225,,12.14,36.82
+"BB","BlackBerry Limited",4.63,,2731700000,,-10.42,
+"EIT.UN","Canoe EIT Income Fund Trust Units",17.19,17.26,2725646400,6.980802792321117,13.92,13.65
+"RUS","Russel Metals Inc.",48.04,15.86,2695044000,3.5803497085761866,-2.9,138.93
+"NWC","North West Company Inc. (The) Variable Voting and Common Voting Shares",55.98,19.3,2662188743,2.9296177206145053,4.19,14.21
+"VNP","5N Plus Inc.",29.66,42.59,2641936353,,13.96,
+"CNL","Collective Mining Ltd.",28.41,,2621241519,,,
+"EXE","Extendicare Inc.",26.58,24.01,2510691221,1.8961625282167043,7.86,8.22
+"CURA","Curaleaf Holdings, Inc. Subordinate Voting Shares",3.19,,2472057040,,-0.53,
+"BDGI","Badger Infrastructure Solutions Ltd.",73.11,28.28,2466748800,1.0258514567090686,14.57,
+"SLS","Solaris Resources Inc.",14.7,,2453384959,,-100,
+"ARE","Aecon Group Inc.",38.01,367.8,2405545560,1.9994738226782425,4.53,-25.17
+"RCH","Richelieu Hardware Ltd.",43.54,28.45,2404278278,1.4386770785484613,3.43,32.61
+"IAU.WT","i-80 Gold Corp. purchase warrants",1.12,,2389918933,,37.08,
+"IAU","i-80 Gold Corp.",2.85,,2389918933,,37.08,
+"FIH.U","Fairfax India Holdings Corporation Subordinate Voting Shares",17.65,72.62,2379408926,,,
+"CHR.DB.C","Chorus Aviation Inc. 5.75% senior unsecured debentures",101.3,8.28,2371978095,,-6.21,
+"HPS.A","Hammond Power Solutions Inc. Class A Subordinate Voting Shares",196.31,30.07,2337055630,0.5603382405379247,17.14,51.48
+"SIA","Sienna Senior Living Inc.",23.48,53.09,2333634889,3.9863713798977853,11.83,
+"VET","Vermilion Energy Inc.",14.65,,2247808100,3.5494880546075085,-17.52,
+"ALS","Altius Minerals Corporation",48.19,5.93,2230043042,0.8300477277443453,-15.54,
+"TSU","Trisura Group Ltd.",46.66,17.76,2219478646,,52.19,27.08
+"SDE","Spartan Delta Corp.",10.95,52.4,2195595450,,-28.11,
+"MSA","Mineros S.A.",7.31,8.28,2162155579,1.8945280437756498,31.88,
+"PMZ.UN","Primaris Real Estate Investment Trust Series A Units",18.26,,2152634478,4.819058050383352,19.49,
+"MUX","McEwen Inc. Common Stock",38.75,,2120762279,,12.42,
+"KMP.UN","Killam Apartment Real Estate Investment Trust Class A Trust Units",16.9,8.14,2098427843,4.260355029585799,5.25,-22.47
+"LAC","Lithium Americas Corp.",6.9,,2094069187,,,
+"CYB","Cymbria Corporation Class A Shares",95.85,8.19,2086475260,,,
+"ASM","Avino Silver & Gold Mines Ltd.",13.12,60.84,2057851310,,25.96,
+"PXT","Parex Resources Inc.",21.34,14.1,2055557062,7.216494845360825,-12.93,62.83
+"VZLA","Vizsla Silver Corp.",5.97,,2054242332,,,
+"NFI","NFI Group Inc.",17.05,,2030243703,,18.37,
+"LIF","Labrador Iron Ore Royalty Corporation",31.22,17.96,1998080000,4.484304932735426,-9.14,12.53
+"WTE","Westshore Terminals Investment Corporation",32,23.59,1976632512,4.6875,4.21,-19.83
+"AFN.DB.K","Ag Growth International Inc. 7.50% Senior Subordinated Unsecured Debentures",105.06,,1976096023,,-0.12,
+"LNF","Leon's Furniture Limited",28.49,11.35,1960068125,3.36960336960337,-20.78,23.82
+"PET","Pet Valu Holdings Ltd.",28.49,20.94,1958806246,1.684801684801685,7.99,75.87
+"TCL.A","Transcontinental Inc. Class A Subordinate Voting Shares",23.26,11.56,1944976056,3.869303525365434,-2.45,-0.92
+"TCL.B","Transcontinental Inc. Class B Multiple Voting Shares",24.07,11.56,1944976056,3.739094308267553,-2.45,-0.92
+"TOY","Spin Master Corp (Sub Voting)",19.25,26.07,1942325000,2.4935064935064934,-0.48,85.26
+"AFN.DB.J","Ag Growth International Inc. 5.20% convertible unsecured subordinated debentures",101.9,,1916658907,,-0.12,
+"MPCT.DB","Dream Impact Trust 6.50% Convertible Unsecured Subordinated Debentures",100,,1901697000,,5.39,
+"TWM.DB.A","Tidewater Midstream and Infrastructure Ltd. 8.00% convertible unsecured subordinated debentures",88,,1900468416,,-20.3,
+"AFN.DB.I","Ag Growth International Inc. 5.00% convertible unsecured subordinated debenture",101,,1899730614,,-0.12,
+"AIF","Altus Group Limited",46.71,5.03,1891299204,1.2845215157353886,-11.9,
+"AFN.DB.H","Ag Growth International Inc. 5.25% Senior Subordinated Unsecured Debentures",100.07,,1882238045,,-0.12,
+"RUP","Rupert Resources Ltd.",8.03,,1881296256,,,
+"BIR","Birchcliff Energy Ltd.",6.85,24.85,1872652699,1.7518248175182483,-19.13,
+"IIP.UN","InterRent Real Estate Investment Trust Units",13.39,,1870606446,2.964152352501867,5.92,-31.13
+"III","Imperial Metals Corporation",10.32,8.89,1837621419,,66.91,
+"GTWO","G2 Goldfields Inc.",7.01,,1810220508,,40.47,
+"BITF","Bitfarms Ltd.",3,,1808182722,,15.6,
+"SVI","StorageVault Canada Inc.",4.95,,1807738203,0.2416969696969697,8.5,
+"SVI.DB.C","StorageVault Canada Inc. 5.00% Convertible Senior Unsecured Debentures",100.48,,1807738203,,8.5,
+"SVI.DB.D","StorageVault Canada Inc. 5.60% Senior Unsecured Hybrid Debentures",102,,1807738203,,8.5,
+"SVI.DB.B","StorageVault Canada Inc. 5.50% senior unsecured hybrid debentures",100.71,,1807738203,,8.5,
+"SIS","Savaria Corporation",25.25,29.94,1807226608,2.2194059405940596,5.3,-10.07
+"LB","Laurentian Bank of Canada",40.19,14.13,1791818943,4.677780542423489,-3.66,10.63
+"LAR","Lithium Argentina AG",11.02,,1788546000,,,
+"CHE.DB.I","Chemtrade Logistics Income Fund 7.00% Unsecured Subordinated Debentures",103.35,18.73,1785652643,,,-4.3
+"CHE.DB.H","Chemtrade Logistics Income Fund 7.00% Convertible Unsecured Subordinated Debentures",125,18.73,1785652643,,,-4.3
+"CHE.UN","Chemtrade Logistics Income Fund Trust Units",15.43,18.73,1785652643,4.666234607906675,,-4.3
+"BDT","Bird Construction Inc.",31.82,18.44,1762281682,2.6398491514770583,15.9,28.8
+"MEQ","Mainstreet Equity Corp.",187.82,7.27,1748551235,0.1703758918113087,14.53,35.6
+"IAU.WT.U","i-80 Gold Corp. purchase warrants",1.39,,1747412742,,37.08,
+"AAV","Advantage Energy Ltd.",10.44,31.3,1742833994,,-1.2,
+"AAV.DB","Advantage Energy Ltd. 5.0% extendible convertible unsecured subordinated debentures (",106.5,31.3,1742833994,,-1.2,
+"KEL","Kelt Exploration Ltd.",8.68,30.5,1730792000,,-8.88,
+"MPCT.DB.A","Dream Impact Trust 5.75% Convertible Unsecured Subordinated Debentures",91,,1730544270,,5.39,
+"GSY","goeasy Ltd.",107.38,7.89,1724196043,5.438629167442727,6.85,26.62
+"LSPD","Lightspeed Commerce Inc. Subordinate Voting Shares",12.31,,1690174559,,19.75,
+"MTL","Mullen Group Ltd.",17.25,17.33,1653336152,4.869565217391305,2.49,37.29
+"UNC","United Corporations Limited",14.69,0.87,1652398040,0.8168822328114363,,
+"GCG.A","Guardian Capital Group Limited Class A Non-voting Shares",67.58,8.89,1651192080,2.3083752589523527,5.96,
+"GCG","Guardian Capital Group Limited",67.22,8.89,1651192080,2.3207378756322523,5.96,
+"LAS.A","Lassonde Industries Inc. Class A Subordinate Voting Shares",242,12.89,1650832040,2.0661157024793386,11.72,-13.69
+"NUAG","New Pacific Metals Corp.",7.78,,1647703226,,,
+"ORE","Orezone Gold Corporation",2.75,13.73,1644183307,,,
+"GOOS","Canada Goose Holdings Inc. Subordinate Voting Shares",16.8,92.44,1631757943,,8.37,-18.18
+"RIO","Rio2 Limited",3.79,,1629221634,,,
+"CFP","Canfor Corporation",13.75,,1624277215,,-11.17,
+"GGD","GoGold Resources Inc.",3.66,30.75,1586156021,,33.3,
+"CJ","Cardinal Energy Ltd.",9.87,20.75,1584882386,7.2948328267477205,-8.78,
+"JWEL","Jamieson Wellness Inc.",37.71,26.89,1581966063,2.439671174754707,17.67,14.49
+"PD","Precision Drilling Corporation",118.32,31.44,1572336969,,9.36,
+"APM","Andean Precious Metals Corp.",10.5,14.36,1560100899,,43.01,
+"TSAT","Telesat Corporation Common and Variable Voting Shares",42.96,,1553780502,,-12.35,
+"FFM","FireFly Metals Ltd.",2.22,,1515488399,,,
+"MDI","Major Drilling Group International Inc.",18.22,90.21,1496486691,,4.4,
+"MER","Meren Energy Inc.",2.18,0,1473482041,9.309887706422018,,
+"NWH.UN","Northwest Healthcare Properties Real Estate Investment Trust Units",5.84,46.31,1459957193,6.164383561643835,8.5,-34.01
+"CJT","Cargojet Inc. Common and Variable Voting Shares",95.42,12.42,1439675109,1.6139174177321316,0.43,
+"SPB","Superior Plus Corp.",6.57,97.6,1437516000,2.73972602739726,-10.04,
+"QBTC","Bitcoin Fund, The Class A units",88.28,,1435273543,,,
+"CRON","Cronos Group Inc.",3.66,26.66,1401389357,,11.96,
+"MAL","Magellan Aerospace Corporation",24.5,27.03,1398436823,0.8163265306122449,10.35,
+"CF","Canaccord Genuity Group Inc.",13.39,,1375610389,2.539208364451083,-12.64,
+"TCW","Trican Well Service Ltd.",6.51,11.31,1370273911,3.3794162826420893,8.16,
+"TNZ","Tenaz Energy Corp.",46.92,,1331308080,,65.32,
+"FDY","Faraday Copper Corp.",5.26,,1330149195,,-100,
+"HSLV","Highlander Silver Corp.",10.11,,1323507046,,,
+"AGF.B","AGF Management Limited Class B Non-Voting Shares",20.52,10.53,1318910626,2.4366471734892787,6.62,-6.46
+"ASCU","Arizona Sonoran Copper Company Inc.",7.22,,1297527744,,,
+"SFC","Sagicor Financial Company Ltd.",9.5,7.05,1287315256,3.9932715789473683,-8.91,
+"VMET","Versamet Royalties Corporation",13.72,338.33,1280999905,,,
+"TLO","Talon Metals Corp.",8.4,,1260723198,,,
+"TLRY","Tilray Brands, Inc. Common Stock",10.73,,1250287498,,11.59,
+"GAU","Galiano Gold Inc.",4.76,,1236602480,,,
+"TLG","Troilus Mining Corp.",2.25,,1230064142,,,
+"MRC","Morguard Corporation",115,5.44,1227980810,0.6956521739130435,-12.02,
+"ET","Evertz Technologies Limited",16.24,19.33,1225869092,5.0492610837438425,4.12,1.09
+"CAS","Cascades Inc.",12.03,,1218715330,3.9900249376558605,3.19,
+"MARI","Marimaca Copper Corp",10.28,,1218175117,,,
+"AP.UN","Allied Properties Real Estate Investment Trust Units",9.51,7.1,1216861398,7.570977917981073,4.48,-22.95
+"BDI","Black Diamond Group Limited",17.24,30.39,1168923720,1.0440835266821347,10.35,
+"VLE","Valeura Energy Inc.",11.01,3.62,1167700276,,2484.96,
+"NDM","Northern Dynasty Minerals Ltd.",2.11,,1165846027,,,
+"NEO","Neo Performance Materials Inc.",27.73,,1153536194,1.4424810674359898,-7.83,
+"ITH","International Tower Hill Mines Ltd.",4.78,,1138534648,,-100,
+"RFA","RFA Financial Inc.",23.52,,1096161007,7.653061224489796,-13.7,
+"MI.UN","Minto Apartment Real Estate Investment Trust Trust Units",17.55,,1094911260,3.048205128205128,3.87,4.62
+"WELL","WELL Health Technologies Corp.",4.2,,1066305500,,31.77,
+"WELL.DB","WELL Health Technologies Corp. 5.50% Convertible Senior Unsecured Debentures",99.97,,1066305500,,31.77,
+"CGI","Canadian General Investments, Limited",50.25,25.51,1048272335,2.4676616915422884,,
+"TMQ","Trilogy Metals Inc.",5.98,,1045431027,,,
+"SOY","SunOpta, Inc.",8.78,,1037944531,,-4.78,
+"QBTC.U","Bitcoin Fund, The Class A Units",63.69,,1035484503,,,
+"RAY","Stingray Group Inc. Subordinate Voting and Variable Subordinate Voting Shares",15.25,0,1034002826,2.2295081967213113,10.87,
+"AD.UN","Alaris Equity Partners Income Trust trust units",22.37,5.99,1014229202,6.61600357621815,-3.84,
+"ALK","Alkane Resources Limited",1.67,,1007740319,,,
+"ARG","Amerigo Resources Ltd.",6.2,36.77,997869404,2.5806451612903225,0.86,
+"MKP","MCAN Mortgage Corporation",24.65,14.69,990013242,6.9776876267748476,19.19,23.43
+"MRG.UN","Morguard North American Residential Real Estate Investment Trust Units",18.75,,977937225,4.21312,38.79,-0.69
+"ISO","IsoEnergy Ltd.",16.09,,974348727,,,
+"ENGH","Enghouse Systems Limited",17.7,12.77,967332382,6.779661016949152,5.27,4.71
+"ALC","Algoma Central Corporation",23.84,8.8,967136733,3.523489932885906,5.32,73.67
+"CVG","Clairvest Group Inc.",70.5,13.68,965436236,,,64.71
+"PSI","Pason Systems Inc.",12.35,16.24,960723358,4.2105263157894735,11.29,46.7
+"SGR.UN","Slate Grocery REIT Class U Units",15.89,26.99,960185030,7.450654247954689,6.92,48.34
+"WRN","Western Copper & Gold Corp",4.69,,947644638,,,
+"MTY","MTY Food Group Inc.",41.4,28.98,945632345,3.57487922705314,14.85,
+"OM","Osisko Metals Incorporated",1.55,,945400227,,,
+"DHT.UN","DRI Healthcare Trust Units",16.91,,932578924,3.3011354228267296,28.93,
+"DFN","Dividend 15 Split Corp. Class A Shares",7.72,10.96,926493813,15.544041450777202,,
+"DRM","DREAM Unlimited Corp. Class A Subordinate Voting Shares",22.22,12.3,925540770,3.1503150315031503,10.43,-28.18
+"CGY","Calian Group Ltd.",80.47,,918497697,1.3918230396421027,9.92,-24.63
+"ISC","Information Services Corporation Class A Limited Voting Shares",49.02,32.48,916697579,1.8767849857201142,10.61,18.35
+"ADEN","ADENTRA Inc.",37.71,12.99,915949050,1.6971625563511006,-3.53,81.41
+"DBM","Doman Building Materials Group Ltd.",10.43,11.38,913981818,5.369127516778524,0.8,58.55
+"AW","A & W Food Services of Canada Inc.",37.25,31.49,893917342,5.154362416107382,,
+"PMET","PMET Resources Inc.",5.42,,887702749,,,
+"BLDP","Ballard Power Systems Inc.",2.93,,881164262,,-3.37,
+"FVL","Freegold Ventures Limited",1.65,,879194696,,,
+"ECN","ECN Capital Corp.",3.06,113.06,862104357,1.3071895424836601,-11.03,
+"GDI","GDI Integrated Facility Services Inc. Subordinate Voting Shares",36.55,20.74,860525853,,7.03,43.14
+"URE","Ur-Energy Inc.",2.31,,859287835,,1175.33,
+"RSI","Rogers Sugar Inc.",6.59,11.91,844718826,5.462822458270106,7.49,
+"SEC","Senvest Capital Inc.",343.62,4.81,834283245,,,
+"MNO","Meridian Mining plc",1.98,,828223068,,,
+"FF","First Mining Gold Corp.",0.64,,827044202,,,
+"PRL","Propel Holdings Inc.",21.01,9.8,826832141,4.283674440742503,22.44,59.1
+"DXT","Dexterra Group Inc.",13.04,19.8,811601906,3.067484662576687,3.47,-47.77
+"URC","Uranium Royalty Corp.",5.85,,809363348,,,
+"LGD","Liberty Gold Corp.",1.58,,801322525,,,
+"SGY","Surge Energy Inc.",8.07,20.62,798801340,6.443568773234201,-25.68,
+"FEC","Frontera Energy Corporation",11.4,,794319499,2.192982456140351,-7.21,
+"MRE","Martinrea International Inc.",10.71,,779557852,1.8674136321195145,1.95,
+"NXR.UN","Nexus Industrial REIT Trust units",7.95,,771301050,8.049811320754717,10.99,1.82
+"ARA","Aclara Resources Inc.",3.37,,741350195,,,
+"JAG","Jaguar Mining Inc.",9.26,,740175765,,,1.53
+"VBNK","VersaBank",22.65,25.02,736550503,0.44150110375275936,16.76,-0.14
+"DIV","Diversified Royalty Corp.",4.3,24.71,732171888,6.627906976744186,16.86,
+"OBE","Obsidian Energy Ltd.",10.72,,721530515,,-3.23,
+"QRC","Queen's Road Capital Investment Ltd.",14.1,,719743862,1.6312056737588652,,
+"TRX","TRX Gold Corporation",2.48,,715064793,,41.44,
+"CGO","Cogeco Inc. Subordinate Voting Shares",73.61,8.3,709804962,5.3634017117239505,-0.67,2.18
+"SGR.U","Slate Grocery REIT Class U Units",11.7,26.99,702048694,7.384615384615385,6.92,48.34
+"WJX","Wajax Corporation",31.42,14.58,683249423,4.455760661998727,5.65,26.93
+"DHT.U","DRI Healthcare Trust Units",12.45,,681864220,3.21285140562249,28.93,
+"MHC.UN","Flagship Communities Real Estate Investment Trust Trust Units",26.8,14.19,678927498,3.142395447761194,21.66,-26.48
+"DCBO","Docebo Inc.",23.56,22.2,676993396,,20.95,
+"HOM.UN","BSR Real Estate Investment Trust Trust Units",17.28,,674613775,4.402285763888889,0.33,89.49
+"TOT","Total Energy Services Inc.",18.1,11.54,673066600,2.2099447513812156,13.92,
+"NOA.DB.A","North American Construction Group Ltd. 5,00% convertible unsecured subordinated debentures",100.3,17.82,672277882,,21.44,8.37
+"NOA","North American Construction Group Ltd.",22.84,17.82,672277882,2.1015761821366024,21.44,8.37
+"DLCG","Dominion Lending Centres Inc. Class """"A""""",8.61,,669314632,1.8583042973286876,5.62,
+"CGX","Cineplex Inc.",10.63,,669138197,,11.84,
+"ESI","Ensign Energy Services Inc.",3.62,,664554438,,5.42,
+"ECOR","Ecora Royalties PLC",2.68,,657982729,0.622485,-44.6,
+"ASTL","Algoma Steel Group Inc.",6.25,,655836263,4.413632,-14.39,
+"ASTL.WT","Algoma Steel Group Inc. Purchase Warrants",0.2,,655836263,,-14.39,
+"IFP","Interfor Corporation",9.96,,655038832,,-26.29,
+"SOIL","Saturn Oil & Gas Inc.",3.33,0,627145560,,45.9,
+"GUD","Knight Therapeutics Inc.",6.28,,626048352,,15.27,
+"FSZ","Fiera Capital Corporation Class A Subordinate Voting Shares",5.84,23.68,622677368,7.397260273972603,-2.1,
+"FSZ.DB.C","Fiera Capital Corporation 7.75% senior subordinated unsecured debentures",104.1,23.68,622677368,,-2.1,
+"ACQ","AutoCanada Inc.",26.38,16.93,610703147,,-8.49,
+"NRR.UN","Northview Residential REIT Unit - Class A",16.8,40.8,605875200,6.510428571428571,55.52,
+"BPF.UN","Boston Pizza Royalties Income Fund Units",25.52,13.7,605063531,5.6426332288401255,,
+"LIRC","Lithium Royalty Corp.",10.87,,596402475,,,
+"VOXR","Vox Royalty Corp.",8.7,,593939639,0.8067471264367816,20.33,
+"GO.U","GO Residential Real Estate Investment Trust Trust Units",10.62,,589012111,6.016949152542373,,
+"BLN","Blackline Safety Corp.",6.75,,587291891,,27.3,
+"BSX","Belo Sun Mining Corp.",1.24,,583772207,,,
+"ETG","Entree Resources Ltd.",2.8,,583618067,,,
+"CHR","Chorus Aviation Inc. Voting and Variable Voting Shares",24.74,8.28,579296526,1.778496362166532,-6.21,
+"WFC","Wall Financial Corporation",17.98,17.77,574877507,5.561735261401557,9.33,-23.26
+"APR.UN","Automotive Properties Real Estate Investment Trust Units",11.68,44.85,573687880,7.037671232876712,5.99,39.88
+"CUP.U","Caribbean Utilities Company, Ltd. Class A",13.45,11.99,570616855,5.650557620817844,2.04,2.36
+"GFR","Greenfire Resources Ltd.",8.09,2.87,568379130,,,
+"KITS","Kits Eyecare Ltd.",17.68,168.36,568247664,,30.59,
+"WEED","Canopy Growth Corporation",1.54,,567158344,,-10.54,
+"AI","Atrium Mortgage Investment Corporation",11.87,11.52,564594330,7.8348778433024435,3.08,4.25
+"EPRX.WT.A","Eupraxia Pharmaceuticals Inc. purchase warrants",8.1,,564222407,,,
+"EPRX","Eupraxia Pharmaceuticals Inc",11.14,,564222407,,,
+"EPRX.WT","Eupraxia Pharmaceuticals Inc. purchase warrants",0.065,,564222407,,,
+"CPKR","Canada Packers Inc.",18.84,,560240106,4.883227176220807,,
+"TF","Timbercreek Financial Corp.",6.76,16.52,559411740,10.207100591715976,18.01,6.92
+"PZA","Pizza Pizza Royalty Corp.",16.73,23.5,558005527,5.558876270173341,15.09,-2.39
+"STG","STRACON Group Holding Inc.",10.52,,551192444,,,
+"CVO","Coveo Solutions Inc. Subordinate voting shares",5.72,,547863854,,0.76,
+"PHX","PHX Energy Services Corp.",12.05,8.19,546721442,6.639004149377594,69.48,
+"TWC","TWC Enterprises Limited",22.5,16.55,543807248,1.6,1.19,
+"FTG","Firan Technology Group Corporation",21.57,62.38,542990022,,46.64,-39.14
+"ERD","Erdene Resource Development Corporation",8.88,,542244315,,,
+"TI","Titan Mining Corporation",5.9,,539789649,,5.36,
+"DTOL","D2L Inc. Subordinate Voting Shares",9.84,13.46,537922296,,16.39,
+"PBL","Pollard Banknote Limited",19.5,18.29,527819546,1.0256410256410255,7.46,5.59
+"AFN","Ag Growth International Inc.",27.82,,523272333,2.156721782890007,-0.12,
+"MATR","Mattr Corp.",8.54,15,522398504,,1.87,
+"MRD","Melcor Developments Ltd.",17.3,8.82,520903796,3.005780346820809,7.62,13.66
+"CJ.WT","Cardinal Energy Ltd. purchase warrants",3.22,20.75,517053828,,-8.78,
+"VHI","Vitalhub Corp.",8.18,154.31,516327514,,40.21,
+"PLZ.UN","Plaza Retail REIT Units",4.51,61.43,503275410,6.207538802660754,4.22,
+"FFN","North American Financial 15 Split Corp. Class A Shares",9.11,13.15,503063192,14.930845225027442,,
+"MHC.U","Flagship Communities Real Estate Investment Trust Trust Units",19.7,14.19,496404520,3.3197969543147208,21.66,-26.48
+"HOM.U","BSR Real Estate Investment Trust Trust Units",12.56,,493250473,3.3463375796178343,0.33,89.49
+"VGZ","Vista Gold Corp.",3.9,,486379362,,,
+"CFW","Calfrac Well Services Ltd.",5.65,24.78,485275443,,4.1,
+"KBL","K-Bro Linen Inc.",36.99,22.08,480519224,3.2441200324412005,19.31,-9.25
+"SBI","Serabi Gold plc",6.57,18.26,476496927,,26.08,-37.16
+"PTM","Platinum Group Metals Ltd.",3.78,,466471047,,,
+"GOLD","GoldMining Inc.",2.32,,464523230,,,
+"REAL","Real Matters Inc.",6.25,,464041719,,-13.41,
+"QETH.UN","The Ether Fund Class A units",42.39,,464002127,,,
+"NOU","Nouveau Monde Graphite Inc.",3.04,,463381743,,,
+"STGO","Steppe Gold Ltd.",1.82,10.36,460145480,,59.89,
+"HLF","High Liner Foods Incorporated",16.23,10.22,459279721,4.313000616142945,-1.35,70
+"FC","Firm Capital Mortgage Investment Corporation",12.31,11.99,452237825,7.60357432981316,9.53,-0.85
+"SAU","St. Augustine Gold and Copper Limited",0.28,,437569756,,,
+"FTN","Financial 15 Split Corp. Class A Shares",10.69,11.75,437309909,14.110383536014968,,
+"PRV.UN","PRO Real Estate Investment Trust Trust Units",6.47,22.84,434049797,6.955177743431221,2.62,23.97
+"DC.A","Dundee Corporation Class A Subordinate Voting Shares",4.81,3.52,432811313,,95.07,
+"ELVA","Electrovaya Inc.",10.27,73.88,432367000,,44.44,
+"LBS","Life & Banc Split Corp. Class A Shares",12.26,12.37,431479053,9.787928221859707,,
+"GBT","BMTC Group Inc.",13.5,13.86,430513650,2.6666666666666665,-7.06,19.52
+"IPO","InPlay Oil Corp.",15.45,,430102492,6.990291262135922,11.48,
+"MRT.UN","Morguard Real Estate Investment Trust Trust Units",6.35,,413880300,3.779527559055118,-0.44,
+"CSW.B","Corby Spirit and Wine Limited Unlimited Non Voting Class B Common Shrs",14.25,14.39,405681198,6.7368421052631575,17.38,-4.57
+"CSW.A","Corby Spirit and Wine Limited Unlimited Voting",14.59,14.39,405681198,6.579849211788897,17.38,-4.57
+"TBL","Taiga Building Products Ltd.",3.75,8.51,404791961,,-9,48.5
+"DGS","Dividend Growth Split Corp. Class A Shares",8.35,15.27,401774721,14.37125748502994,,
+"KSI","kneat.com, inc.",4.07,,389852325,,38.13,
+"URB","Urbana Corporation",9.38,7.54,384659577,1.492537313432836,111.31,
+"URB.A","Urbana Corporation Non-Voting Class A Shares",8.72,7.54,384659577,1.6055045871559632,111.31,
+"GRA","NanoXplore Inc.",2.1,,381000440,,-0.31,
+"CPH","Cipher Pharmaceuticals Inc.",15.01,17.02,380798341,,32.3,123.35
+"EDT","Spectral Medical Inc.",1.31,,375926000,,17.65,
+"ANRG","Anaergia Inc.",2.2,,374454335,,-7.03,
+"TCS","TECSYS Inc.",25.21,68.22,371790046,1.4280047600158667,9.48,16.81
+"TAL","PetroTal Corp.",0.4,0,365206000,20.63175,-1.22,
+"BTB.UN","BTB Real Estate Investment Trust Trust Units",4.01,10.46,356753435,7.4812967581047385,3.79,11.49
+"AGMR","Silver Mountain Resources Incorporation - Class A",5.91,,351757107,,,
+"AGMR.WT.B","Silver Mountain Resources Incorporation Warrants (28/04/2028)",0.345,,351757107,,,
+"GLO","Global Atomic Corporation",0.86,,350707848,,0.25,
+"ELO","Eloro Resources Ltd.",2.69,,348422341,,,
+"VLN","Velan Inc. Subordinate Voting Shares",16,3.89,346970160,2.5,0.24,
+"BGAU","Blossom Gold Inc.",2.62,,344841489,,,
+"BK","Canadian Banc Corp. Class A Shares",14.22,14.42,342592250,15.390717299578059,,
+"FAR","Foraco International SA",3.4,18.3,334985003,,-14.72,115.82
+"QETH.U","The Ether Fund Class A units",30.33,,331993029,,,
+"D.UN","Dream Office Real Estate Investment Trust Trust Units",17.25,,327504895,5.796869565217391,-2.24,-19.05
+"RIC","Richards Group Inc.",28.65,15.46,327126072,4.607329842931938,,
+"FRX","Fennec Pharmaceuticals Inc.",11.65,,326922300,,,
+"CMG","Computer Modelling Group Ltd.",4.07,20.3,326206430,0.9828009828009828,20.36,-7.31
+"TSK","Talisker Resources Ltd.",1.83,,325026531,,,
+"STLR","STLLR Gold Inc.",2.07,,313348279,,,
+"DR","Medical Facilities Corporation",17,9.55,311840333,2.1176470588235294,-14.78,
+"ADN","Acadian Timber Corp.",16.83,6.38,310611905,6.8924539512774805,-1.31,56.5
+"PRN","Profound Medical Corp.",10.33,,310311227,,29.12,
+"DRX","ADF Group Inc. Subordinate Voting Shares",10.49,10.28,299522606,0.3813155386081983,1.46,
+"ORV","Orvana Minerals Corp.",2.18,,297838513,,16.46,
+"ACB","Aurora Cannabis Inc.",5.23,,296590288,,37.37,
+"VCM","Vecima Networks Inc.",12.15,,295422317,1.8106995884773662,2.13,
+"XTC","Exco Technologies Limited",7.75,0,293917448,5.419354838709677,17.02,-10.78
+"CKI","Clarke Inc.",21.48,8.67,293198928,,17.6,
+"ENS","E Split Corp. Class A Shares",17.12,,292809095,9.813084112149532,,
+"GTE","Gran Tierra Energy Inc. shares of common stock",8.27,,291839906,,-3.76,
+"MPC","Madison Pacific Properties Inc. Class B Voting",4.9,18.15,291611030,2.142857142857143,6.73,27
+"MPC.C","Madison Pacific Properties Inc. Class C Non-Voting Shares",4.5,18.15,291611030,2.3333333333333335,6.73,27
+"OLY","Olympia Financial Group Inc.",121.1,17.81,291407290,5.945499587118084,17.59,12.82
+"DND","Dye & Durham Limited",4.29,,288165761,1.7482517482517483,-12.27,
+"MXG","Maxim Power Corp.",4.52,20.27,287654911,,-15.26,
+"CVVY","Cavvy Energy Ltd.",0.98,,284803749,,-22.36,
+"DNG","Dynacor Group Inc.",6.74,12.74,282431423,2.3732937685459943,18.49,35.37
+"WILD","WildBrain Ltd.",1.32,,282023013,,-1.61,
+"NCF","Northcliff Resources Ltd.",0.445,,279352604,,,
+"TSND","TerrAscend Corp.",0.91,,277989810,,6.21,
+"JOY","Journey Energy Inc.",4.11,13.57,275809770,,-7.44,
+"TC","Tucows Inc.",24.89,,275790817,,5.82,
+"AIM","Aimia Inc.",3.01,,273222772,,3.15,
+"ERE.UN","European Residential Real Estate Investment Trust Trust Units",1.13,,265716170,8.506194690265486,-24.49,0.72
+"PGI.UN","PIMCO Global Income Opportunities Fund Class A units",7.25,,264838193,9.414620689655173,4.39,
+"OGI","Organigram Global Inc.",1.95,,263515186,,23.18,
+"MSCL","Satellos Bioscience Inc.",17.01,,262956382,,,
+"HAI","Haivision Systems Inc.",9.6,,261048768,,16.17,
+"RBY","Rubellite Energy Corp.",2.75,4.7,257400000,,79.2,
+"PNE","Pine Cliff Energy Ltd.",0.71,,254742009,2.112676056338028,-21.46,
+"SBC","Brompton Split Banc Corp. Class A Shares",12.43,12.37,254444661,9.654062751407885,,
+"MGA","Mega Uranium Ltd.",0.67,69,250733806,,,
+"PIF","Polaris Renewable Energy Inc.",11.99,,250645351,6.814628857381151,21.03,-64.64
+"SPPP","Sprott Physical Platinum and Palladium Trust transferable, redeemable units",25.84,,249262174,,,
+"MOLY","Greenland Resources Inc.",1.84,,248747594,,,
+"DF","Dividend 15 Split Corp. II Class A Shares",7.92,11.58,246405844,15.151515151515152,,
+"STCK","Stack Capital Group Inc.",18.54,5.1,245403153,,-72.8,
+"TSK.WT","Talisker Resources Ltd. purchase warrants",1.38,,245101974,,,
+"GH","Gamehost Inc.",11.75,11.75,242988155,5.1063829787234045,17.47,-0.61
+"CRRX","CareRx Corporation",3.81,,239237524,2.099737532808399,-5.51,
+"OCG","Outcrop Silver & Gold Corporation",0.5,,236553455,,,
+"GRID","Tantalus Systems Holding Inc.",4.54,,233571223,,13.89,
+"PRQ","Petrus Resources Ltd.",1.77,,232900698,6.779661016949152,-13.31,
+"BOIL","Beyond Oil Ltd.",3.06,,232629171,,,
+"LAM","Laramide Resources Ltd.",0.82,,232568694,,,
+"ADW.A","Andrew Peller Limited/Andrew Peller Limitee Class A Non-voting Shares",5.25,15.21,229238961,4.685714285714286,0.5,
+"ADW.B","Andrew Peller Limited/Andrew Peller Limitee Class B Voting Shares",7.32,15.21,229238961,2.9234972677595628,0.5,
+"AIDX","HealWELL AI Inc. Class A Subordinate Voting Shares",0.74,,228806348,,16.09,
+"PIC.A","Premium Income Corporation Class A Shares",9.24,10.99,227252697,11.688311688311689,,
+"BRE","Bridgemarq Real Estate Services Inc. Restricted Voting Shares",14.4,,226546474,9.375,99.66,6.21
+"FCD.UN","Firm Capital Property Trust Trust Units",6.13,17.14,226356380,8.482218597063621,5.95,
+"ECO","EcoSynthetix Inc.",3.8,,224438701,,3,
+"GENM","Generation Mining Limited",0.82,,221097944,,,
+"QIPT","Quipt Home Medical Corp.",4.93,,218546762,,33.62,
+"SHLE","Source Energy Services Ltd.",16.65,9.7,217786246,,19.79,
+"GCU","Gunnison Copper Corp",0.6,,216876524,,0.66,
+"HFPC.U","Helios Fairfax Partners Corporation Subordinate Voting Shares",2,,216583152,,,
+"PSD","Pulse Seismic Inc.",4.25,9.06,215538142,1.6470588235294117,74.77,
+"LCFS","Tidewater Renewables Ltd.",5.9,,214842600,,68.2,
+"ACX","ACT Energy Technologies Ltd.",6.4,9.19,214149434,,34.94,
+"WNDR","WonderFi Technologies Inc.",0.32,,212667976,,106.79,
+"SPAC.V","Mercer Park Opportunities Corp.",10,,212500000,,,
+"STC","Sangoma Technologies Corporation",6.3,,209266980,,-11.62,
+"XAU","GoldMoney Inc.",16.21,,201432949,,-3.74,
+"FURY","Fury Gold Mines Limited",1.06,,200491897,,,
+"LGO","Largo Inc.",2.32,,193286160,,-21.59,
+"GDC","Genesis Land Development Corp.",3.4,5.88,192612866,,46.05,
+"TINY","Tiny Ltd. Class A",6.54,,192369849,,37.45,
+"BNE","Bonterra Energy Corp.",5.29,,190958843,,-17.74,
+"Y","Yellow Pages Limited New",13.65,11.09,187805709,7.326007326007326,-0.79,-2.5
+"KEI","Kolibri Global Energy Inc.",5.17,8.09,182898227,,15.97,
+"SPPP.U","Sprott Physical Platinum and Palladium Trust Units",17.45,,182250491,,,
+"RUA","Rua Gold Inc.",1.58,,181581483,,,
+"COP.UN","Sprott Physical Copper Trust Units",16.68,,181300508,,,
+"BAMI","Blue Ant Media Corporation Subordinate Voting Shares",6.49,,180081567,,-13.34,
+"RM","Roxmore Resources Inc.",3.27,,176452660,,,
+"DRT","DIRTT Environmental Solutions Ltd.",0.93,,176368830,,-1.14,
+"DBO","D-Box Technologies Inc. Class A",0.79,10.14,175957943,,18.88,
+"GDV","Global Dividend Growth Split Corp. Class A Shares",13.3,31.81,175705848,9.022556390977444,,
+"GEO","Geodrill Limited",3.67,13.92,173088834,,8.38,89.63
+"TWM","Tidewater Midstream and Infrastructure Ltd.",7.96,,171906007,,-20.3,
+"GURU","GURU Organic Energy Corp.",5.63,,169487851,,-1.9,
+"ESM","Euro Sun Mining Inc.",0.395,,167050270,,,
+"CXI","Currency Exchange International, Corp.",27.98,12.94,166736178,,24.43,
+"BOS","AirBoss of America Corp.",6.1,,165610266,2.2950819672131146,-13.34,
+"XLY","Auxly Cannabis Group Inc.",0.12,4.17,161585460,,13.78,
+"CWEB","Charlotte's Web Holdings, Inc.",0.99,,156429446,,-14.97,
+"HBP","Helix BioPharma Corp. Common",1.97,,150464853,,,
+"WEF","Western Forest Products Inc.",14.04,,148236889,,-12.13,
+"PBY.UN","Canso Credit Income Fund Class A units",16.26,20.16,148227542,3.074538745387454,,
+"XTRA","Xtract One Technologies Inc.",0.57,,147528020,,71.23,
+"XTG","Xtra-Gold Resources Corp.",3.15,24.96,146084769,,,-41.93
+"FLNT","FLINT Corp.",1.32,0.56,145201635,,11.69,
+"HLS","HLS Therapeutics Inc.",4.5,,140731565,,-3.15,
+"ELR","Eastern Platinum Limited",0.69,,140409084,,-0.45,
+"FAP","abrdn Asia-Pacific Income Fund VCC",2.76,8.8,140055140,7.608695652173913,,
+"GMX","Globex Mining Enterprises Inc.",2.48,28.44,139456441,,-53.12,
+"CRDL","Cardiol Therapeutics Inc. Class A",1.38,,137996754,,,
+"BGI.UN","Brookfield Global Infrastructure Securities Income Fund Units",7.62,18.29,134533333,7.874015748031496,,
+"COP.U","Sprott Physical Copper Trust Units",12.2,,132605887,,,
+"ALYA","Alithya Group inc. Class A subordinate voting shares",1.33,,132595234,,-1.17,
+"EVT","Economic Investment Trust Limited",24.25,28.2,132439629,0.4948453608247423,,
+"SRV.UN","SIR Royalty Income Fund Transferable Units",15.74,18.15,131831425,8.005082592121981,,
+"ATCU","Alta Copper Corp.",1.38,,130012734,,,
+"CDR","Condor Energies Inc.",1.88,,128529552,,209.99,
+"WM","Wallbridge Mining Company Limited",0.105,,128108597,,,
+"HMM.A","Hammond Manufacturing Company Limited Class A Subordinate Voting Shares",11.3,6.45,128077590,0.5309734513274337,14.64,43.23
+"LUC","Lucara Diamond Corp.",0.28,1.64,127631928,,-3.95,
+"THNC","Thinkific Labs Inc.",1.87,233.25,126973873,,14.17,
+"CCM","Canagold Resources Ltd.",0.65,,126077704,,,
+"ROOT","Roots Corporation",3.14,,123131222,,-1.07,
+"TNT.UN","True North Commercial Real Estate Investment Trust Units",8.55,,123102207,8.070175438596491,-5.42,-24.24
+"IVQ","Invesque Inc.",0.13,,118829671,,-19.31,
+"YGR","Yangarra Resources Ltd.",1.1,6.11,111403600,,-10.74,38.78
+"KPT","KP Tissue Inc.",11.11,12.76,111348164,6.480648064806481,,
+"QTRH","Quarterhill Inc.",0.95,,111233477,,-20.16,
+"TRZ","Transat A.T. Inc. Voting and Variable Voting Shares",2.67,,107815243,,47.05,
+"QEC","Questerre Energy Corporation Class A voting",0.25,,107128959,,-1.99,
+"STCK.WT.A","Stack Capital Group Inc. purchase warrants",7.99,5.1,105758964,,-72.8,
+"FSY","Forsys Metals Corp.",0.425,,104008323,,,
+"GDL","Goodfellow Inc.",12.43,16.21,103553758,2.4135156878519712,-4.89,97.87
+"NANO","Nano One Materials Corp.",0.91,,102974486,,,
+"TTNM","Titanium Transportation Group Inc.",2.2,,102652312,,-1.98,114.46
+"MID.UN","MINT Income Fund Trust Units",7.9,15.63,101603962,6.075949367088608,,
+"IMP","Intermap Technologies Corporation",1.41,,100605846,,27.12,
+"PNC.B","Postmedia Network Canada Corp. Class NC Variable Voting Shares",0.95,,99043201,,-11.17,
+"PNC.A","Postmedia Network Canada Corp. Class C Voting Shares",1,,99043201,,-11.17,
+"IS","Infrastructure Dividend Split Corp. Class A Shares",18.74,21.59,97677471,9.6051227321238,,
+"SLR","Solitario Resources Corp.",1.07,,96600395,,,
+"JFS.UN","JFT Strategies Fund Class A Units",27.56,15.58,95994622,,,
+"AKT.B","Akita Drilling Ltd. Class B",2.58,4.49,95556078,,8.1,
+"AKT.A","Akita Drilling Ltd. Class A Non-Voting Shares",2.41,4.49,95556078,,8.1,
+"AIAI:CNX","NetraMark Holdings Inc.",1.02,,95481047,,69.18,
+"AIAI","NetraMark Holdings Inc.",1.04,,95481047,,69.18,
+"PNP","Pinetree Capital Ltd.",10,3.23,93870000,,,
+"E","Enterprise Group, Inc.",1.21,25.74,93855994,,12.3,
+"MDP","Medexus Pharmaceuticals Inc.",2.88,,93025094,,-0.1,
+"S","Sherritt International Corporation",0.185,,91813406,,-0.28,
+"OGD","Orbit Garant Drilling Inc.",2.41,18.75,91424287,,-2.01,
+"AMC","Arizona Metals Corp.",0.66,,90886060,,,
+"SXP","Supremex Inc.",3.7,,90069633,5.405405405405405,-35.64,62.44
+"PYR","PyroGenesis Inc.",0.445,,87934521,,-16.24,
+"SYZ","Sylogist Ltd.",3.75,,87673789,1.0666666666666667,5.6,27.46
+"IVQ.U","Invesque Inc.",0.095,,86883478,,-19.31,
+"SIH.UN","Sustainable Innovation & Health Dividend Fund trust units",14.33,37.25,85505190,2.7910676901605025,,
+"WRG","Western Energy Services Corp.",2.52,,85284415,,2.78,
+"LFE","Canadian Life Companies Split Corp. Class A Shares",7.28,8.93,83845837,16.483516483516482,,
+"DII.A","Dorel Industries Inc. Class A Multiple Voting Shares",2.55,,83300600,,-9.4,
+"DII.B","Dorel Industries Inc. Class B Subordinate Voting Shares",1.76,,83300600,,-9.4,
+"SAM","Starcore International Mines Ltd.",1.24,43.75,82910761,,15.61,
+"DCM","Data Communications Management Corp.",1.48,7.89,81857247,6.756756756756757,20.61,
+"COPR","Coppernico Metals Inc.",0.46,,81560230,,,
+"MCB","McCoy Global Inc.",3.04,12.69,81483792,3.289473684210526,24.14,
+"LCS","Brompton Lifeco Split Corp. Class A Shares",8.85,9.1,79804123,10.169491525423728,,
+"RBN.UN","Blue Ribbon Income Fund Trust Units",8.72,18.04,79284106,5.504587155963303,,
+"BCHT","Birchtech Corp.",3.26,,77208556,,0.77,
+"RTG","RTG Mining Inc.",0.04,,76468216,,,
+"MDNA","Medicenna Therapeutics Corp.",0.9,,75078181,,,
+"NPK","Verde Agritech Ltd.",1.36,,71630825,,-39.55,
+"TSL","Tree Island Steel Ltd.",2.66,,68937510,2.255639097744361,-19.03,
+"FT","Fortune Minerals Limited",0.115,,67269461,,,
+"DS","Dividend Select 15 Corp. Equity Shares",7.69,16.76,65212284,9.5703511053316,,
+"CEMX","CEMATRIX Corporation",0.41,19.75,61583059,,15.79,
+"GFP","GreenFirst Forest Products Inc.",2.65,,61246620,,-16.58,
+"NEXT","NextSource Materials Inc",0.33,,61242411,,,
+"FORA","VerticalScope Holdings Inc. Subordinate Voting Shares",2.75,,59179241,,0.68,
+"IFA","iFabric Corp.",1.95,39,59083961,,9.41,
+"BRAG","Bragg Gaming Group Inc.",2.31,,58788294,,11.18,
+"AVL","Avalon Advanced Materials Inc.",0.07,,58440816,,-69.61,
+"MMP.UN","Precious Metals and Mining Trust transferable, redeemable units",4.91,31.83,57069932,2.443991853360489,,
+"ICE","Canlan Ice Sports Corp.",4.15,13.77,55195000,2.891566265060241,11.75,
+"DYA","dynaCERT Inc.",0.105,,53370102,,18.13,
+"TXP","Touchstone Exploration Inc.",0.16,,51957377,,5.5,
+"PME","Sentry Select Primary Metals Corp. Class A Shares",6.31,32.44,50110543,2.8526148969889067,,
+"PWI","Power & Infrastructure Split Corp. Class A Shares",13.02,14.94,48592801,9.216589861751151,,
+"ILLM","illumin Holdings Inc.",0.94,,48541222,,8.47,
+"WPRT","Westport Fuel Systems Inc.",2.77,,48062284,,-19.79,
+"XTD","TDb Split Corp. Class A Shares",6.88,,47659549,8.720930232558139,,
+"SVA","Sernova Biotherapeutics Inc.",0.14,,46599674,,,
+"NVO","Novo Resources Corp.",0.125,,44328785,,-100,
+"SLT.WT","Saltire Capital Ltd. warrants",1.66,,43775554,,,
+"SLT","Saltire Capital Ltd.",5.75,,43775554,,,
+"SWP","Swiss Water Decaffeinated Coffee Inc.",4.4,32.07,41996029,,12.92,-32.42
+"SFD","NXT Energy Solutions Inc.",0.38,,41523465,,,
+"GVC","Glacier Media Inc.",0.315,,41306453,,-7.81,
+"BKI","Black Iron Inc.",0.13,,39809469,,,
+"RS","Real Estate Split Corp. Class A shares",10.13,,39192767,15.399802566633761,,
+"ORIO","Orion Digital Corp.",1.61,,38589366,,0.23,
+"GRN","Greenlane Renewables Inc.",0.24,22.5,37920101,,-16.11,
+"BCT","BriaCell Therapeutics Corp.",5.21,,37775037,,,
+"BYL.DB","Baylin Technologies Inc. 8.5% Convertible Unsecured Debentures",85,,37398768,,-12.63,
+"BYL","Baylin Technologies Inc.",0.245,,37398768,,-12.63,
+"CFX","Canfor Pulp Products Inc.",0.57,,37183129,,-12.97,
+"HOT.UN","American Hotel Income Properties REIT LP Limited Partnership Units",0.48,,36081946,,-10.44,
+"TVA.B","TVA Group Inc. Class B Non-Voting Shares",0.83,,35860445,,-3.1,
+"INO.UN","Inovalis Real Estate Investment Trust Units",1.06,,35259701,,-16.49,
+"IGBT.UN","2028 Investment Grade Bond Trust Class F Units",10.71,,35065011,5.228758169934641,,
+"TGO","TeraGo Inc.",0.88,,34317762,,-7,
+"UNI","Unisync Corp.",1.8,,34222012,,2.49,
+"SBR","Silver Bear Resources plc",0.05,,33916481,,-8.61,
+"MBX","Microbix Biosystems Inc.",0.24,,33252808,,0.07,
+"INC.UN","Income Financial Trust Trust Units",9.82,11.76,32887867,10.060692464358452,-100,
+"MPCT.UN","Dream Impact Trust Units",1.72,,32709188,,5.39,
+"YRB","Yorbeau Resources Inc. Class A",0.07,2.5,32311183,,-17.11,
+"MSV","Minco Silver Corporation",0.52,3.64,32045043,,,
+"SLT.U","Saltire Capital Ltd.",4.34,,32006927,,,
+"SLT.WT.U","Saltire Capital Ltd. Warrants",1.2,,32006927,,,
+"RVX","Resverlogix Corp.",0.11,,31607845,,,
+"BU","Burcon Nutrascience Corporation",2.36,,29953771,,49.74,
+"STCK.WT.B","Stack Capital Group Inc. purchase warrants",2.25,5.1,29781936,,-72.8,
+"XTRA.WT","Xtract One Technologies Inc. Purchase Warrants",0.115,,29764425,,71.23,
+"LABS","MediPharm Labs Corp.",0.07,,29452851,,27.89,
+"LABS.WT.B","MediPharm Labs Corp. common share purchase warrants",0.005,,29452851,,27.89,
+"WCM.A","Wilmington Capital Management Inc. Class A Non-voting Shares",2.3,,28740416,,705.14,
+"WCM.B","Wilmington Capital Management Inc. Class B Shares",2.5,,28740416,,705.14,
+"GRC","Gold Springs Resource Corp.",0.1,,28301349,,,
+"NPS","Canadian Large Cap Leaders Split Corp. Class A shares",14.99,12.13,27740989,14.409606404269512,,
+"CWL","Caldwell Partners International Inc. (The)",0.94,11.33,27665546,4.25531914893617,-7.53,
+"BNK","Big Banc Split Corp. Class A Shares",17.72,11.79,27646815,8.126410835214447,,
+"HOT.U","American Hotel Income Properties REIT LP Limited Partnership Unit",0.35,,26381668,,-10.44,
+"AEG","Aegis Brands Inc.",0.3,10.07,25586150,,8.54,
+"FOOD","Goodfood Market Corp.",0.255,,25204238,,-15.35,
+"BEK.B","Becker Milk Company Ltd. (The) Non-Voting Part. Class B Special",13.27,10.8,23996937,6.028636021100226,12.74,57.41
+"SFI","Solution Financial Inc.",0.28,,23717756,1.4285714285714286,-9.44,25.23
+"PRM","Big Pharma Split Corp. Class A Shares",15.5,,23468008,7.981935483870968,,
+"GEC","Global Education Communities Corp.",0.34,,23262984,,-12.08,
+"DIAM","Star Diamond Corporation",0.03,,23050055,,,
+"RAV.UN","Ravensource Fund Trust Units",17.02,,22059197,,,
+"PGIC","Premium Global Income Split Corp. Class A Shares",6.75,18.87,21663160,14.222222222222221,,
+"AVCN","Avicanna Inc.",0.18,,21205307,,83.79,
+"BR","Big Rock Brewery Inc.",0.84,,20531809,,-1.5,
+"PPR","Prairie Provident Resources Inc.",0.43,,20089170,,-33,
+"MDS.UN","Healthcare Special Opportunities Fund Class A Units",11.75,28.42,19024860,2.0888510638297872,,
+"EAGR","East Side Games Group Inc.",0.24,,18482947,,-20.38,
+"WRX","Western Resources Corp.",0.04,,16356619,,,
+"NUMI","Numinus Wellness Inc.",0.05,,16027580,,,
+"MPVD","Mountain Province Diamonds Inc.",0.075,,15927026,,-24.59,
+"ACD","Accord Financial Corp.",1.82,,15577222,,-6.91,
+"ACD.DB","Accord Financial Corp. 12.0% Unsecured Subordinated Debentures",80,,15577222,,-6.91,
+"ELEF","Silver Elephant Mining Corp.",0.26,,14596967,,,
+"FDGE","Farmers Edge Inc.",0.345,,14497759,,-7.48,
+"VRTS","Vertiqal Studios Corp.",0.015,,14335335,,30.58,
+"SVB","Silver Bull Resources, Inc.",0.3,,14295586,,,
+"PMB.UN","Picton Mahoney Tactical Income Fund",6.89,,14356616,,,
+"KRN","Karnalyte Resources Inc.",0.23,,12255316,,,
+"HWO","High Arctic Energy Services Inc.",0.84,,10665446,,,
+"RPR.UN","Ravelin Properties REIT Trust Units",0.12,,10301715,,-1.88,
+"RPR.DB.B","Ravelin Properties REIT 7.50% Convertible Unsecured Subordinated Debentures",20,,10301715,,-1.88,
+"RPR.DB.A","Ravelin Properties REIT 5.50% Extendible Convertible Unsecured Subordinated Debentures",18,,10301715,,-1.88,
+"PDV","Prime Dividend Corp. Class A Shares",11.52,11.51,9841006,10.182291666666666,,
+"BNG","Bengal Energy Ltd.",0.02,,9706084,,-25.18,
+"CTF.UN","Citadel Income Fund transferable, redeemable units",3.1,23.71,9690684,7.741935483870968,,
+"AVNT","Avant Brands Inc.",0.85,,9519661,,37.04,
+"KLS","Kelso Technologies Inc.",0.165,,9101414,,2.12,
+"CTX","Crescita Therapeutics Inc.",0.47,,8748551,,-4.15,
+"ADCO","Adcore Inc.",0.13,,7894517,,34.83,
+"CSCI","COSCIENS Biopharma Inc.",2.44,,7766430,,43.98,
+"YCM","Commerce Split Corp. Capital Shares",8.52,11.32,7638453,7.042253521126761,,
+"CJR.B","Corus Entertainment Inc. Class B Non-Voting Shares",0.035,,6980406,,-10.99,
+"ESP","Brompton Energy Split Corp. Class A Shares",8,16.75,6579312,15,,
+"BRY","Bri-Chem Corp.",0.245,,6476080,,-6.36,
+"EGLX","Enthusiast Gaming Holdings Inc.",0.04,,6366760,,-38.77,
+"AUMN","Golden Minerals Company",0.4,,6021219,,-100,
+"FMR","Future Mineral Resources Inc.",0.35,,5840657,,,
+"ENI.UN","Energy Income Fund Trust Units",2.15,15.05,5571992,5.5813953488372094,21.79,-32.84
+"APS","Aptose Biosciences Inc.",2.16,,5513247,,,
+"HRR.UN","Australian REIT Income Fund",7.93,,5245979,,,
+"CFF","Conifex Timber Inc.",0.12,,4892125,,-17.83,
+"CNT","Century Global Commodities Corporation shares",0.04,,4728219,,9.11,
+"SPAC.RT.U","Mercer Park Opportunities Corp. Rights",0.215,,4669128,,,
+"AAB","Aberdeen International Inc.",0.025,,4017407,,67.01,
+"TCBN","TD Global Carbon Credit Index ETF",43.65,,3928500,,,
+"CRWN","Crown Capital Partners Inc.",0.57,,3407364,,2.16,
+"CRWN.NT","Crown Capital Partners Inc. 12.00% secured subordinated debentures due December 31, 2026",17,,3407364,,2.16,
+"CRWN.DB","Crown Capital Partners Inc. 5 year 6.00% convertible unsecured subordinated debentures",94.75,,3407364,,2.16,
+"SPAC.WT.U","Mercer Park Opportunities Corp. Share Purchase Warrants",0.15,,3350344,,,
+"BABY.WT.A","Else Nutrition Holdings Inc. 290257 12 0",0.005,,2992914,,18.6,
+"BABY","Else Nutrition Holdings Inc.",0.08,,2992914,,18.6,
+"MKZ.UN","Mackenzie Master Limited Partnership Partnership Units",0.47,5.94,2944320,15.106382978723405,,-7.65
+"XMF.A","M Split Corp. Capital Share (2014)",1.01,,2298303,,175.7,
+"APLI","Appili Therapeutics Inc. Class A",0.015,,1925492,,,
+"TINY.WT","Tiny Ltd. Purchase Warrants",0.06,,1764861,,37.45,
+"FTU","US Financial 15 Split Corp. Class A Shares",0.6,13.16,1140490,,,
+"NHK.WT","Nighthawk Gold Corp. common share purchase warrants",0.005,,749347,,,
